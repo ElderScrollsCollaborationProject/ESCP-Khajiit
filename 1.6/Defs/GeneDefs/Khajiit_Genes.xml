@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Khajiit_Blood</defName>
+        <label>Khajiit blood</label>
+        <description>Khajiit feel the turning of the moons in their bones. Carriers are sensitive to mystical power, sit ill with strangers who think of them as thieves, and can run on moonlight for a short while.</description>
+        <iconPath>UI/Icons/Genes/ESCP_Gene_Khajiit</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>100</displayOrderInCategory>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <statOffsets>
+            <PsychicSensitivity>0.2</PsychicSensitivity>
+            <SocialImpact>-0.2</SocialImpact>
+        </statOffsets>
+        <abilities>
+            <li>ESCP_Ability_Khajiit_MoonStride</li>
+        </abilities>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Khajiit_Nimble</defName>
+        <label>Khajiit nimbleness</label>
+        <description>Soft paws and quick reflexes. Carriers move fast, step around blows and rarely set off a trap.</description>
+        <iconPath>UI/Icons/Genes/Gene_Robust</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>101</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>-2</biostatMet>
+        <statOffsets>
+            <MoveSpeed>0.2</MoveSpeed>
+            <MeleeDodgeChance>5</MeleeDodgeChance>
+            <PawnTrapSpringChance>-0.3</PawnTrapSpringChance>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Khajiit_Hair</defName>
+        <label>Khajiit grooming</label>
+        <description>Carriers only wear Khajiiti hair and whisker styles.</description>
+        <iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+        <iconColor>(0.75, 0.75, 0.75)</iconColor>
+        <displayCategory>Cosmetic</displayCategory>
+        <biostatCpx>0</biostatCpx>
+        <exclusionTags>
+            <li>HairStyle</li>
+        </exclusionTags>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Bald</li>
+                <li>ESCP_Khajiit</li>
+            </tags>
+        </hairTagFilter>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+                <li>ESCP_Khajiit</li>
+            </tags>
+        </beardTagFilter>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Khajiit_Fur</defName>
+        <label>Khajiit fur</label>
+        <description>Carriers are covered head to toe in soft fur, with the broad face and whiskers of a great cat.</description>
+        <iconPath>UI/Icons/Genes/Gene_Furskin</iconPath>
+        <displayCategory>Cosmetic</displayCategory>
+        <biostatCpx>0</biostatCpx>
+        <fur>ESCP_Fur_Khajiit</fur>
+        <skinIsHairColor>true</skinIsHairColor>
+        <tattoosVisible>false</tattoosVisible>
+        <exclusionTags>
+            <li>Head</li>
+        </exclusionTags>
+        <forcedHeadTypes>
+            <li>ESCP_HeadKhajiit_Female_Average_Normal</li>
+            <li>ESCP_HeadKhajiit_Female_Average_Pointy</li>
+            <li>ESCP_HeadKhajiit_Female_Average_Wide</li>
+            <li>ESCP_HeadKhajiit_Male_Average_Normal</li>
+            <li>ESCP_HeadKhajiit_Male_Average_Pointy</li>
+            <li>ESCP_HeadKhajiit_Male_Average_Wide</li>
+        </forcedHeadTypes>
+        <renderNodeProperties>
+            <li Class="ESCP.Core.PawnRenderNodeProperties_FurPattern">
+                <nodeClass>ESCP.Core.PawnRenderNode_FurPattern</nodeClass>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Masks/BodyPattern_</texPath>
+                <variants>5</variants>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <defaultData>
+                        <layer>1</layer>
+                    </defaultData>
+                </drawData>
+            </li>
+            <li Class="ESCP.Core.PawnRenderNodeProperties_FurPattern">
+                <nodeClass>ESCP.Core.PawnRenderNode_FurPattern</nodeClass>
+                <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+                <texPath>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Masks/FacePattern_</texPath>
+                <onHead>true</onHead>
+                <variants>5</variants>
+                <parentTagDef>Head</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <defaultData>
+                        <layer>1</layer>
+                    </defaultData>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Khajiit_Ears</defName>
+        <label>cat ears</label>
+        <description>Carriers have tall, tufted cat ears set high on the head.</description>
+        <iconPath>UI/Icons/Genes/Gene_EarCat</iconPath>
+        <displayCategory>Cosmetic</displayCategory>
+        <biostatCpx>0</biostatCpx>
+        <renderNodeProperties>
+            <li>
+                <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+                <workerClass>ESCP_RaceTools_Biotech.PawnRenderNodeWorker_MerRightEar</workerClass>
+                <texPaths>
+                    <li>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/EarRight</li>
+                    <li>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/EarRight1</li>
+                    <li>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/EarRight2</li>
+                </texPaths>
+                <colorType>Hair</colorType>
+                <parentTagDef>Head</parentTagDef>
+                <useRottenColor>true</useRottenColor>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <defaultData>
+                        <layer>70</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>-2</layer>
+                    </dataNorth>
+                </drawData>
+            </li>
+            <li>
+                <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+                <workerClass>ESCP_RaceTools_Biotech.PawnRenderNodeWorker_MerLeftEar</workerClass>
+                <texPaths>
+                    <li>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/EarLeft</li>
+                    <li>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/EarLeft1</li>
+                    <li>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/EarLeft2</li>
+                </texPaths>
+                <colorType>Hair</colorType>
+                <parentTagDef>Head</parentTagDef>
+                <useRottenColor>true</useRottenColor>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <defaultData>
+                        <layer>70</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>-2</layer>
+                    </dataNorth>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneTailBase">
+        <defName>ESCP_Gene_Khajiit_Tail</defName>
+        <label>Khajiit tail</label>
+        <description>Carriers have a long and expressive cat's tail that says a good deal more than its owner would like.</description>
+        <iconPath>UI/Icons/Genes/Gene_TailFurry</iconPath>
+        <iconColor>(0.75, 0.75, 0.75)</iconColor>
+        <randomChosen>false</randomChosen>
+        <biostatCpx>0</biostatCpx>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPaths>
+                    <li>Things/Pawn/Humanlike/ESCP_Khajiit/Tails/Tail</li>
+                    <li>Things/Pawn/Humanlike/ESCP_Khajiit/Tails/Tail1</li>
+                    <li>Things/Pawn/Humanlike/ESCP_Khajiit/Tails/Tail2</li>
+                    <li>Things/Pawn/Humanlike/ESCP_Khajiit/Tails/Tail3</li>
+                </texPaths>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>90</layer>
+                    </dataNorth>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Khajiit_Quadruped</defName>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <label>quadruped frame</label>
+        <description>Carriers walk on four paws. They cannot manage tools, fine work or a bowstring, and tending a wound without thumbs is a slow business. Oratory and fighting are another matter.</description>
+        <iconPath>UI/Icons/Genes/Gene_Robust</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>102</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>2</biostatMet>
+        <disabledWorkTags>Constructing, Cooking, Crafting, Mining, Shooting</disabledWorkTags>
+        <statFactors>
+            <MedicalSurgerySuccessChance>0.5</MedicalSurgerySuccessChance>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Senche_Form</defName>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <label>Senche form</label>
+        <description>Carriers are huge tiger-bodied Khajiit, covered in fur and built like war beasts.</description>
+        <iconPath>UI/Icons/Genes/Gene_Furskin</iconPath>
+        <displayCategory>Cosmetic</displayCategory>
+        <biostatCpx>0</biostatCpx>
+        <skinIsHairColor>true</skinIsHairColor>
+        <tattoosVisible>false</tattoosVisible>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Bald</li>
+            </tags>
+        </hairTagFilter>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+            </tags>
+        </beardTagFilter>
+        <exclusionTags>
+            <li>Head</li>
+        </exclusionTags>
+        <forcedHeadTypes>
+            <li>ESCP_HeadSenche_Male_Average_Normal</li>
+            <li>ESCP_HeadSenche_Female_Average_Normal</li>
+        </forcedHeadTypes>
+        <renderNodeProperties>
+            <li Class="ESCP.Core.PawnRenderNodeProperties_FurPattern">
+                <nodeClass>ESCP.Core.PawnRenderNode_FurPattern</nodeClass>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/Masks/BodyPattern_</texPath>
+                <variants>3</variants>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <defaultData>
+                        <layer>1</layer>
+                    </defaultData>
+                </drawData>
+            </li>
+            <li Class="ESCP.Core.PawnRenderNodeProperties_FurPattern">
+                <nodeClass>ESCP.Core.PawnRenderNode_FurPattern</nodeClass>
+                <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+                <texPath>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Masks/FacePattern_</texPath>
+                <onHead>true</onHead>
+                <variants>3</variants>
+                <parentTagDef>Head</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <defaultData>
+                        <layer>1</layer>
+                    </defaultData>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Senche_Ears</defName>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <label>Senche ears</label>
+        <description>Carriers have the upright ears of a great cat.</description>
+        <iconPath>UI/Icons/Genes/Gene_EarCat</iconPath>
+        <displayCategory>Cosmetic</displayCategory>
+        <biostatCpx>0</biostatCpx>
+        <renderNodeProperties>
+            <li>
+                <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+                <workerClass>ESCP_RaceTools_Biotech.PawnRenderNodeWorker_MerRightEar</workerClass>
+                <texPaths>
+                    <li>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Senche/EarRight</li>
+                </texPaths>
+                <colorType>Hair</colorType>
+                <parentTagDef>Head</parentTagDef>
+                <useRottenColor>true</useRottenColor>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <defaultData>
+                        <layer>70</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>-2</layer>
+                    </dataNorth>
+                </drawData>
+            </li>
+            <li>
+                <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+                <workerClass>ESCP_RaceTools_Biotech.PawnRenderNodeWorker_MerLeftEar</workerClass>
+                <texPaths>
+                    <li>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Senche/EarLeft</li>
+                </texPaths>
+                <colorType>Hair</colorType>
+                <parentTagDef>Head</parentTagDef>
+                <useRottenColor>true</useRottenColor>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <defaultData>
+                        <layer>70</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>-2</layer>
+                    </dataNorth>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneTailBase">
+        <defName>ESCP_Gene_Senche_Tail</defName>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <label>Senche tail</label>
+        <description>Carriers have the heavy, rope-thick tail of a great tiger.</description>
+        <iconPath>UI/Icons/Genes/Gene_TailFurry</iconPath>
+        <iconColor>(0.75, 0.75, 0.75)</iconColor>
+        <randomChosen>false</randomChosen>
+        <biostatCpx>0</biostatCpx>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPaths>
+                    <li>Things/Pawn/Humanlike/ESCP_Khajiit/Tails/Senche/Tail</li>
+                </texPaths>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>90</layer>
+                    </dataNorth>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Alfiq_Form</defName>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <label>Alfiq form</label>
+        <description>Carriers are house-cat sized Khajiit, and take great offense at being mistaken for one.</description>
+        <iconPath>UI/Icons/Genes/Gene_Furskin</iconPath>
+        <displayCategory>Cosmetic</displayCategory>
+        <biostatCpx>0</biostatCpx>
+        <skinIsHairColor>true</skinIsHairColor>
+        <tattoosVisible>false</tattoosVisible>
+        <hairTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>Bald</li>
+            </tags>
+        </hairTagFilter>
+        <beardTagFilter>
+            <whitelist>true</whitelist>
+            <tags>
+                <li>NoBeard</li>
+            </tags>
+        </beardTagFilter>
+        <exclusionTags>
+            <li>Head</li>
+        </exclusionTags>
+        <forcedHeadTypes>
+            <li>ESCP_HeadAlfiq_Male_Average_Normal</li>
+            <li>ESCP_HeadAlfiq_Male_Average_Wide</li>
+            <li>ESCP_HeadAlfiq_Female_Average_Normal</li>
+            <li>ESCP_HeadAlfiq_Female_Average_Wide</li>
+        </forcedHeadTypes>
+        <renderNodeProperties>
+            <li Class="ESCP.Core.PawnRenderNodeProperties_FurPattern">
+                <nodeClass>ESCP.Core.PawnRenderNode_FurPattern</nodeClass>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPath>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/Masks/BodyPattern_</texPath>
+                <variants>2</variants>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <defaultData>
+                        <layer>1</layer>
+                    </defaultData>
+                </drawData>
+            </li>
+            <li Class="ESCP.Core.PawnRenderNodeProperties_FurPattern">
+                <nodeClass>ESCP.Core.PawnRenderNode_FurPattern</nodeClass>
+                <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+                <texPath>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Alfiq/Masks/FacePattern_</texPath>
+                <onHead>true</onHead>
+                <variants>2</variants>
+                <parentTagDef>Head</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <defaultData>
+                        <layer>1</layer>
+                    </defaultData>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>ESCP_Gene_Alfiq_Ears</defName>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <label>Alfiq ears</label>
+        <description>Carriers have the upright ears of a great cat.</description>
+        <iconPath>UI/Icons/Genes/Gene_EarCat</iconPath>
+        <displayCategory>Cosmetic</displayCategory>
+        <biostatCpx>0</biostatCpx>
+        <renderNodeProperties>
+            <li>
+                <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+                <workerClass>ESCP_RaceTools_Biotech.PawnRenderNodeWorker_MerRightEar</workerClass>
+                <texPaths>
+                    <li>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Alfiq/EarRight</li>
+                    <li>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Alfiq/EarRight1</li>
+                </texPaths>
+                <colorType>Hair</colorType>
+                <parentTagDef>Head</parentTagDef>
+                <useRottenColor>true</useRottenColor>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <defaultData>
+                        <layer>70</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>-2</layer>
+                    </dataNorth>
+                    <dataEast>
+                        <offset>(-0.14, 0, -0.06)</offset>
+                        <layer>70</layer>
+                    </dataEast>
+                </drawData>
+            </li>
+            <li>
+                <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+                <workerClass>ESCP_RaceTools_Biotech.PawnRenderNodeWorker_MerLeftEar</workerClass>
+                <texPaths>
+                    <li>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Alfiq/EarLeft</li>
+                    <li>Things/Pawn/Humanlike/ESCP_Khajiit/Ears/Alfiq/EarLeft1</li>
+                </texPaths>
+                <colorType>Hair</colorType>
+                <parentTagDef>Head</parentTagDef>
+                <useRottenColor>true</useRottenColor>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <defaultData>
+                        <layer>70</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>-2</layer>
+                    </dataNorth>
+                    <dataEast>
+                        <offset>(-0.14, 0, -0.06)</offset>
+                        <layer>70</layer>
+                    </dataEast>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneTailBase">
+        <defName>ESCP_Gene_Alfiq_Tail</defName>
+        <canGenerateInGeneSet>false</canGenerateInGeneSet>
+        <label>Alfiq tail</label>
+        <description>Carriers have the slim and expressive tail of a house cat.</description>
+        <iconPath>UI/Icons/Genes/Gene_TailFurry</iconPath>
+        <iconColor>(0.75, 0.75, 0.75)</iconColor>
+        <randomChosen>false</randomChosen>
+        <biostatCpx>0</biostatCpx>
+        <renderNodeProperties>
+            <li>
+                <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+                <texPaths>
+                    <li>Things/Pawn/Humanlike/ESCP_Khajiit/Tails/Alfiq/Tail</li>
+                    <li>Things/Pawn/Humanlike/ESCP_Khajiit/Tails/Alfiq/Tail1</li>
+                </texPaths>
+                <colorType>Hair</colorType>
+                <parentTagDef>Body</parentTagDef>
+                <rotDrawMode>Fresh, Rotting</rotDrawMode>
+                <drawData>
+                    <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+                    <defaultData>
+                        <layer>-2</layer>
+                    </defaultData>
+                    <dataNorth>
+                        <layer>90</layer>
+                    </dataNorth>
+                </drawData>
+            </li>
+        </renderNodeProperties>
+    </GeneDef>
+
+</Defs>

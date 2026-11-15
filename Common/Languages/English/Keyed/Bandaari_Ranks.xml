@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Rank_Mentor_Bandaari>Caravan elder:</ESCP_Rank_Mentor_Bandaari>
+    <ESCP_Rank_Promote_Bandaari>Earn a Bigger Share</ESCP_Rank_Promote_Bandaari>
+    <ESCP_Rank_Promoted_Text_Bandaari>The Clan Mother has decided. {0} travels as {1} now.</ESCP_Rank_Promoted_Text_Bandaari>
+    <ESCP_Rank_Rally_Title_Bandaari>{0} calls the caravan together</ESCP_Rank_Rally_Title_Bandaari>
+    <ESCP_Rank_Rally_Text_Bandaari>{0} promises a fat share to every one of {1} on the field, and they fight for it.</ESCP_Rank_Rally_Text_Bandaari>
+    <ESCP_Rank_InspectionComplete_Commended_Bandaari>{0} checks {1}'s gear. Fine goods, this one would buy them.</ESCP_Rank_InspectionComplete_Commended_Bandaari>
+    <ESCP_Rank_InspectionComplete_Reprimanded_Bandaari>{0} checks {1}'s gear. Not even a skooma dealer would take it.</ESCP_Rank_InspectionComplete_Reprimanded_Bandaari>
+    <ESCP_Rank_PunishmentAssigned_Bandaari>{0} sends {1} to load the wagons.</ESCP_Rank_PunishmentAssigned_Bandaari>
+
+</LanguageData>

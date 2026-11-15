@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ScenarioDef>
+        <defName>ESCP_Scenario_Khajiit</defName>
+        <label>Bandaari Caravan</label>
+        <description>A small Bandaari caravan that has gone off the road for good. They have a few wagons, a few debts, and a very firm belief that this empty land was left behind on purpose.</description>
+        <scenario>
+            <summary>A small Bandaari caravan that has gone off the road for good. They have a few wagons, a few debts, and a very firm belief that this empty land was left behind on purpose.</summary>
+            <playerFaction>
+                <def>PlayerFaction</def>
+                <factionDef>ESCP_Faction_Khajiit_Player</factionDef>
+            </playerFaction>
+            <surfaceLayer>
+                <def>SurfaceLayerFixed</def>
+                <tag>Surface</tag>
+                <layer>Surface</layer>
+                <settingsDef>Surface</settingsDef>
+                <hide>true</hide>
+                <connections>
+                    <Orbit MayRequire="Ludeon.RimWorld.Odyssey">
+                        <zoomMode>ZoomOut</zoomMode>
+                    </Orbit>
+                </connections>
+            </surfaceLayer>
+            <parts>
+                <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+                    <def>ConfigPage_ConfigureStartingPawns</def>
+                    <pawnCount>4</pawnCount>
+                    <pawnChoiceCount>8</pawnChoiceCount>
+                </li>
+                <li Class="ScenPart_PlayerPawnsArriveMethod">
+                    <def>PlayerPawnsArriveMethod</def>
+                    <method>Standing</method>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Silver</thingDef>
+                    <count>400</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Pemmican</thingDef>
+                    <count>200</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>MedicineHerbal</thingDef>
+                    <count>20</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>WoodLog</thingDef>
+                    <count>300</count>
+                </li>
+            </parts>
+        </scenario>
+    </ScenarioDef>
+
+</Defs>

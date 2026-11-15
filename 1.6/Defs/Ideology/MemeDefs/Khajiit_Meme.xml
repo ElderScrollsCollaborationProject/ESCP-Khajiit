@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <MemeDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_Meme_KhajiitMoons</defName>
+        <label>The Two Moons</label>
+        <description>Jone and Jode decide who a Khajiit is. The Lunar Lattice keeps the world in order, Rajhin keeps it interesting, and moon sugar is a gift that deserves respect, more or less.</description>
+        <iconPath>Things/UI/Ideology/ESCP_Khajiit_Moons</iconPath>
+        <groupDef>Misc</groupDef>
+        <impact>2</impact>
+        <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+        <hiddenInChooseMemes>true</hiddenInChooseMemes>
+        <requireOne>
+            <li>
+                <li>Cannibalism_Abhorrent</li>
+            </li>
+            <li>
+                <li>Slavery_Disapproved</li>
+            </li>
+            <li>
+                <li>Execution_RespectedIfGuilty</li>
+            </li>
+            <li>
+                <li>Research_Fast</li>
+            </li>
+            <li>
+                <li>DrugUse_MedicalOrSocial</li>
+            </li>
+        </requireOne>
+    </MemeDef>
+
+</Defs>

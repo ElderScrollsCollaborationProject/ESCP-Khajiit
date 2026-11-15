@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ESCP.Ranks.RankTrackDef>
+        <defName>ESCP_RankTrack_Bandaari</defName>
+        <label>the caravan ranks</label>
+        <rootTier>ESCP_Rank_Bandaari_Porter</rootTier>
+        <owningFaction>ESCP_Faction_Bandaari</owningFaction>
+        <collectiveNoun>the caravan</collectiveNoun>
+        <drillLabel>Guard Practice</drillLabel>
+        <drillDesc>Train with any colonist. Both stop what they are doing and both gain skill XP. Once per day.</drillDesc>
+        <studyLabel>Practice Haggling</studyLabel>
+        <studyDesc>Study with another member. Both gain skill XP. Once per day.</studyDesc>
+        <inspectLabel>Check Their Gear</inspectLabel>
+        <inspectDesc>Look over a junior member's gear. Good upkeep earns praise and poor upkeep earns a sharp word.</inspectDesc>
+        <punishLabel>Send to Load the Wagons...</punishLabel>
+        <punishDesc>Set a junior member to tedious labor for a failure, souring their mood. Once per day per member.</punishDesc>
+        <rallyLabel>For the Caravan!</rallyLabel>
+        <rallyDesc>Call on {0} to fight harder for a short while. Once every few days.</rallyDesc>
+        <fallInLabel>Circle the Wagons</fallInLabel>
+        <fallInDesc>Order {0} to gather behind you, up to four deep. They hold position until released.</fallInDesc>
+        <dismissLabel>Back on the Road</dismissLabel>
+        <dismissDesc>Release {0} so they can return to their duties.</dismissDesc>
+    </ESCP.Ranks.RankTrackDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_Bandaari_Porter</defName>
+        <label>porter</label>
+        <description>Carries what the caravan carries and asks few questions.</description>
+        <nextTierOptions>
+            <li>ESCP_Rank_Bandaari_CaravanHand</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_Bandaari_CaravanHand</defName>
+        <label>caravan hand</label>
+        <description>Knows the roads and keeps the wagons rolling.</description>
+        <minDaysInRank>4</minDaysInRank>
+        <skillRequirements>
+            <Social>5</Social>
+        </skillRequirements>
+        <minMissionsCompleted>1</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Social>400</Social>
+            <Melee>200</Melee>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Novice</expedition>
+        <discipline>Scholarly</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_Bandaari_Trader</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_Bandaari_Trader</defName>
+        <label>trader</label>
+        <description>Haggles for the caravan and usually wins.</description>
+        <minDaysInRank>9</minDaysInRank>
+        <skillRequirements>
+            <Social>8</Social>
+        </skillRequirements>
+        <minMissionsCompleted>2</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Social>500</Social>
+            <Melee>250</Melee>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Novice</expedition>
+        <discipline>Scholarly</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_Bandaari_CaravanMaster</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_Bandaari_CaravanMaster</defName>
+        <label>caravan master</label>
+        <description>Leads a caravan of their own across Tamriel.</description>
+        <minDaysInRank>14</minDaysInRank>
+        <skillRequirements>
+            <Social>11</Social>
+        </skillRequirements>
+        <minMissionsCompleted>4</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Social>600</Social>
+            <Melee>300</Melee>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Veteran</expedition>
+        <discipline>Scholarly</discipline>
+        <nextTierOptions>
+            <li>ESCP_Rank_Bandaari_ClanMothersVoice</li>
+        </nextTierOptions>
+    </ESCP.Ranks.RankTierDef>
+
+    <ESCP.Ranks.RankTierDef>
+        <defName>ESCP_Rank_Bandaari_ClanMothersVoice</defName>
+        <label>Clan Mother's voice</label>
+        <description>Speaks for the Clan Mother in any market.</description>
+        <minDaysInRank>20</minDaysInRank>
+        <skillRequirements>
+            <Social>14</Social>
+        </skillRequirements>
+        <minMissionsCompleted>6</minMissionsCompleted>
+        <trainingXpPerHour>
+            <Social>700</Social>
+            <Melee>350</Melee>
+        </trainingXpPerHour>
+        <expedition>ESCP_Expedition_Faction_Veteran</expedition>
+        <discipline>Scholarly</discipline>
+    </ESCP.Ranks.RankTierDef>
+
+</Defs>

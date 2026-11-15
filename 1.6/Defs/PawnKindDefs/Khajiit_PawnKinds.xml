@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <PawnKindDef Name="ESCP_KhajiitkindBase" Abstract="True">
+        <race>Human</race>
+        <defaultFactionDef>ESCP_Faction_Elsweyr</defaultFactionDef>
+        <xenotypeSet>
+            <xenotypeChances>
+                <ESCP_Xenotype_Khajiit MayRequire="Ludeon.RimWorld.Biotech">0.75</ESCP_Xenotype_Khajiit>
+                <ESCP_Xenotype_OhmesRaht MayRequire="Ludeon.RimWorld.Biotech">0.15</ESCP_Xenotype_OhmesRaht>
+                <ESCP_Xenotype_Ohmes MayRequire="Ludeon.RimWorld.Biotech">0.1</ESCP_Xenotype_Ohmes>
+            </xenotypeChances>
+        </xenotypeSet>
+        <useFactionXenotypes>false</useFactionXenotypes>
+        <maxGenerationAge>65</maxGenerationAge>
+        <chemicalAddictionChance>0</chemicalAddictionChance>
+        <invNutrition>2.7</invNutrition>
+        <invFoodDef>Pemmican</invFoodDef>
+        <disallowedTraits>
+            <li>Nudist</li>
+        </disallowedTraits>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_KhajiitkindBase">
+        <defName>ESCP_Pawnkind_Khajiit_Citizen</defName>
+        <label>Khajiit citizen</label>
+        <combatPower>35</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>250~500</apparelMoney>
+        <apparelTags>
+            <li>MedievalBasic</li>
+        </apparelTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Khajiit_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Khajiit_Citizen</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Khajiit_Quickfingers>0</ESCP_Trait_Khajiit_Quickfingers>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_KhajiitkindBase">
+        <defName>ESCP_Pawnkind_Khajiit_Merchant</defName>
+        <label>Khajiit merchant</label>
+        <combatPower>45</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>400~800</apparelMoney>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>Cape</li>
+        </apparelTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Khajiit_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Khajiit_Citizen</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Khajiit_Quickfingers>0</ESCP_Trait_Khajiit_Quickfingers>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_KhajiitkindBase">
+        <defName>ESCP_Pawnkind_Khajiit_Noble</defName>
+        <label>Khajiit clan mother's kin</label>
+        <combatPower>60</combatPower>
+        <itemQuality>Good</itemQuality>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>600~1200</apparelMoney>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>Robe</li>
+            <li>Cape</li>
+            <li>RoyalTier5</li>
+            <li>RoyalRobe</li>
+        </apparelTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Khajiit_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Khajiit_Citizen</li>
+                    <li>ESCP_Backstory_Khajiit_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Khajiit_Quickfingers>0</ESCP_Trait_Khajiit_Quickfingers>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_KhajiitkindBase">
+        <defName>ESCP_Pawnkind_Khajiit_Trader</defName>
+        <label>Khajiit trader</label>
+        <trader>true</trader>
+        <combatPower>40</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>400~800</apparelMoney>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>Cape</li>
+        </apparelTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Khajiit_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Khajiit_Citizen</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Khajiit_Quickfingers>0</ESCP_Trait_Khajiit_Quickfingers>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_KhajiitkindBase">
+        <defName>ESCP_Pawnkind_Khajiit_Quartermaster</defName>
+        <label>Khajiit quartermaster</label>
+        <trader>true</trader>
+        <combatPower>45</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>500~1000</apparelMoney>
+        <apparelTags>
+            <li>MedievalBasic</li>
+        </apparelTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Khajiit_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Khajiit_Citizen</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Khajiit_Quickfingers>0</ESCP_Trait_Khajiit_Quickfingers>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_KhajiitkindBase">
+        <defName>ESCP_Pawnkind_Khajiit_Melee</defName>
+        <label>Khajiit warrior</label>
+        <combatPower>100</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <canBeSapper>true</canBeSapper>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>250~500</apparelMoney>
+        <weaponMoney>300~600</weaponMoney>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+            <li>MedievalMeleeDecent</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Khajiit_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Khajiit_Military</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Khajiit_Clawsworn>0</ESCP_Trait_Khajiit_Clawsworn>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_KhajiitkindBase">
+        <defName>ESCP_Pawnkind_Khajiit_Ranged</defName>
+        <label>Khajiit hunter</label>
+        <combatPower>80</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <canBeSapper>true</canBeSapper>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>250~500</apparelMoney>
+        <weaponMoney>300~600</weaponMoney>
+        <weaponTags>
+            <li>NeolithicRangedBasic</li>
+            <li>NeolithicRangedDecent</li>
+            <li>NeolithicRangedHeavy</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Khajiit_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Khajiit_Military</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Khajiit_Clawsworn>0</ESCP_Trait_Khajiit_Clawsworn>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_KhajiitkindBase">
+        <defName>ESCP_Pawnkind_Khajiit_Mage</defName>
+        <label>Khajiit wise one</label>
+        <combatPower>110</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <canBeSapper>true</canBeSapper>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>400~900</apparelMoney>
+        <weaponMoney>300~600</weaponMoney>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+            <li>MedievalMeleeDecent</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>Robe</li>
+            <li>BestowerHood</li>
+        </apparelTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Khajiit_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Khajiit_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Khajiit_Moonlit>0</ESCP_Trait_Khajiit_Moonlit>
+        </forcedTraits>
+        <modExtensions>
+            <li Class="ESCP.Core.Magic.PawnKindExtension_Spellcaster">
+                <spells>
+                    <li>ESCP_Spell_Firebolt</li>
+                    <li>ESCP_Spell_Ward</li>
+                </spells>
+                <randomSpells>
+                    <li>ESCP_Spell_IceSpike</li>
+                    <li>ESCP_Spell_Fireball</li>
+                    <li>ESCP_Spell_Paralyze</li>
+                    <li>ESCP_Spell_Healing</li>
+                </randomSpells>
+                <randomCount>1~2</randomCount>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_KhajiitkindBase">
+        <defName>ESCP_Pawnkind_Khajiit_Captain</defName>
+        <label>Khajiit warrior captain</label>
+        <combatPower>137</combatPower>
+        <itemQuality>Good</itemQuality>
+        <canBeSapper>true</canBeSapper>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>700~1300</apparelMoney>
+        <weaponMoney>500~900</weaponMoney>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+            <li>MedievalMeleeDecent</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Khajiit_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Khajiit_Military</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Khajiit_Clawsworn>0</ESCP_Trait_Khajiit_Clawsworn>
+        </forcedTraits>
+        <modExtensions>
+            <li Class="ESCP.Core.Magic.PawnKindExtension_Spellcaster">
+                <spells>
+                    <li>ESCP_Spell_Ward</li>
+                </spells>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_KhajiitkindBase">
+        <defName>ESCP_Pawnkind_Khajiit_Elite</defName>
+        <label>Khajiit berserker</label>
+        <combatPower>175</combatPower>
+        <itemQuality>Good</itemQuality>
+        <canBeSapper>true</canBeSapper>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>900~1800</apparelMoney>
+        <weaponMoney>600~1200</weaponMoney>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+            <li>MedievalMeleeDecent</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Khajiit_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Khajiit_Military</li>
+                    <li>ESCP_Backstory_Khajiit_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Khajiit_Clawsworn>0</ESCP_Trait_Khajiit_Clawsworn>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_KhajiitkindBase">
+        <defName>ESCP_Pawnkind_Khajiit_Settler</defName>
+        <label>Khajiit settler</label>
+        <defaultFactionDef>ESCP_Faction_Khajiit_Player</defaultFactionDef>
+        <combatPower>30</combatPower>
+        <isFighter>false</isFighter>
+        <forceNormalGearQuality>true</forceNormalGearQuality>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <apparelMoney>350~600</apparelMoney>
+        <apparelTags>
+            <li>MedievalBasic</li>
+        </apparelTags>
+        <initialWillRange>0~0</initialWillRange>
+        <initialResistanceRange>13~21</initialResistanceRange>
+        <forcedTraits>
+            <ESCP_Trait_Khajiit_Quickfingers>0</ESCP_Trait_Khajiit_Quickfingers>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_KhajiitkindBase">
+        <defName>ESCP_Pawnkind_Khajiit_Senche</defName>
+        <label>Senche warrior</label>
+        <race>ESCP_Race_Senche</race>
+        <combatPower>180</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <canBeSapper>true</canBeSapper>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>250~500</apparelMoney>
+        <weaponMoney>0~0</weaponMoney>
+        <apparelTags>
+            <li>ESCP_Khajiit_Senche_Apparel</li>
+        </apparelTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Khajiit_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Khajiit_Military</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Khajiit_Clawsworn>0</ESCP_Trait_Khajiit_Clawsworn>
+        </forcedTraits>
+        <xenotypeSet Inherit="False">
+            <xenotypeChances>
+                <ESCP_Xenotype_Senche MayRequire="Ludeon.RimWorld.Biotech">1</ESCP_Xenotype_Senche>
+            </xenotypeChances>
+        </xenotypeSet>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_KhajiitkindBase">
+        <defName>ESCP_Pawnkind_Khajiit_Alfiq</defName>
+        <label>Alfiq emissary</label>
+        <race>ESCP_Race_Alfiq</race>
+        <combatPower>40</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <canBeSapper>true</canBeSapper>
+        <gearHealthRange>0.6~2.0</gearHealthRange>
+        <apparelMoney>250~500</apparelMoney>
+        <weaponMoney>0~0</weaponMoney>
+        <apparelTags>
+            <li>ESCP_Khajiit_Alfiq_Apparel</li>
+        </apparelTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialWillRange>2~5</initialWillRange>
+        <initialResistanceRange>12~22</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Khajiit_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Khajiit_Military</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Khajiit_Clawsworn>0</ESCP_Trait_Khajiit_Clawsworn>
+        </forcedTraits>
+        <xenotypeSet Inherit="False">
+            <xenotypeChances>
+                <ESCP_Xenotype_Alfiq MayRequire="Ludeon.RimWorld.Biotech">1</ESCP_Xenotype_Alfiq>
+            </xenotypeChances>
+        </xenotypeSet>
+    </PawnKindDef>
+
+</Defs>

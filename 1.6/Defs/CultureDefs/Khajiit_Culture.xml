@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <CultureDef>
+        <defName>ESCP_Culture_Khajiit</defName>
+        <label>Khajiit</label>
+        <description>The culture of the sixteen kingdoms of Elsweyr, ordered by the phases of the moons. Clan mothers keep the peace, the Mane keeps the faith, moon sugar goes in everything, and a good bargain counts as a form of prayer.</description>
+        <iconPath>UI/Cultures/ESCP_Culture_Imperial</iconPath>
+        <pawnNameMaker>ESCP_Khajiit_Namer_Male</pawnNameMaker>
+        <pawnNameMakerFemale>ESCP_Khajiit_Namer_Female</pawnNameMakerFemale>
+        <allowedPlaceTags>
+            <li>OriginSpacer</li>
+        </allowedPlaceTags>
+        <styleItemTags>
+            <li>
+                <tag>BeardTribal</tag>
+                <baseWeight>3</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>NoBeard</tag>
+                <baseWeight>10</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>Urban</tag>
+                <baseWeight>3</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>NoTattoo</tag>
+                <baseWeight>10</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+        </styleItemTags>
+        <thingStyleCategories MayRequire="Ludeon.RimWorld.Ideology">
+            <li>
+                <category>Rustic</category>
+                <priority>2</priority>
+            </li>
+        </thingStyleCategories>
+        <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerIdeo_Khajiit</ideoNameMaker>
+        <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerDeity_Khajiit</deityNameMaker>
+        <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_DeityTypeMaker_Khajiit</deityTypeMaker>
+        <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerFestival_Khajiit</festivalNameMaker>
+        <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_LeaderTitleMaker_Khajiit</leaderTitleMaker>
+    </CultureDef>
+
+    <StyleCategoryDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_Style_Khajiit</defName>
+        <label>Khajiit</label>
+        <iconPath>UI/Cultures/ESCP_Culture_Imperial</iconPath>
+        <ritualVisualEffectDef>Rustic</ritualVisualEffectDef>
+        <thingDefStyles />
+    </StyleCategoryDef>
+
+    <RulePackDef>
+        <defName>ESCP_Khajiit_Namer_Male</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->[ESCP_Khajiit_Names_Male] [ESCP_Khajiit_Names_Last]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>ESCP_Khajiit_Names_Male->Names/ESCP_Khajiit_Names_Male</li>
+                <li>ESCP_Khajiit_Names_Last->Names/ESCP_Khajiit_Names_Last</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef>
+        <defName>ESCP_Khajiit_Namer_Female</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->[ESCP_Khajiit_Names_Female] [ESCP_Khajiit_Names_Last]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>ESCP_Khajiit_Names_Female->Names/ESCP_Khajiit_Names_Female</li>
+                <li>ESCP_Khajiit_Names_Last->Names/ESCP_Khajiit_Names_Last</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_LeaderTitleMaker_Khajiit</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_leaderTitle->Mane</li>
+                <li>r_leaderTitle->Clan Mother</li>
+                <li>r_leaderTitle->Clan Father</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerIdeo_Khajiit</defName>
+        <include>
+            <li>GlobalUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>hyphenPrefix->Lunar</li>
+                <li>hyphenPrefix->Moon</li>
+                <li>hyphenPrefix->Riddle</li>
+                <li>hyphenPrefix->Mane</li>
+                <li>r_ideoName->The Lunar Lattice</li>
+                <li>r_ideoName->The Two Moons</li>
+                <li>r_ideoName->The Riddle'Thar</li>
+                <li>r_ideoName->The Open Road</li>
+                <li>r_ideoAdjective->Khajiiti</li>
+                <li>r_ideoAdjective->Lunar</li>
+                <li>r_memberName->Moon-follower</li>
+                <li>r_memberName->Clan-kin</li>
+                <li>r_memberName->Lattice-keeper</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerDeity_Khajiit</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_deityName->Ja-Kha'jay</li>
+                <li>r_deityName->Alkosh</li>
+                <li>r_deityName->Khenarthi</li>
+                <li>r_deityName->Rajhin</li>
+                <li>r_deityName->S'rendarr</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_DeityTypeMaker_Khajiit</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_deityType->the Lunar Lattice</li>
+                <li>r_deityType->Dragon King of Cats</li>
+                <li>r_deityType->Queen of the Winds</li>
+                <li>r_deityType->the Footpad</li>
+                <li>r_deityType->the Runt of the Litter</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>ESCP_NamerFestival_Khajiit</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_ritualName->[festivalName]</li>
+                <li>festivalName->The Two-Moons Dance</li>
+                <li>festivalName->Night of the Lattice</li>
+                <li>festivalName->Saint Alkosh's Vigil</li>
+                <li>festivalName->First Cane</li>
+                <li>festivalName->Rajhin's Reckoning</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>

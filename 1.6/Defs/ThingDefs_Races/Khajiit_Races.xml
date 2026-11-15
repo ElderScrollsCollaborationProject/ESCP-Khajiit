@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="Human">
+        <defName>ESCP_Race_Senche</defName>
+        <label>Senche</label>
+        <description>A tiger-sized Khajiit that walks on four legs and argues on two moons.</description>
+        <statBases>
+            <MoveSpeed>5.1</MoveSpeed>
+            <ComfyTemperatureMin>-15</ComfyTemperatureMin>
+            <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+            <ArmorRating_Sharp>0.16</ArmorRating_Sharp>
+        </statBases>
+        <tools Inherit="False">
+            <li>
+                <label>left claw</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>11</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+                <chanceFactor>1</chanceFactor>
+            </li>
+            <li>
+                <label>right claw</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>11</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+                <chanceFactor>1</chanceFactor>
+            </li>
+            <li>
+                <label>teeth</label>
+                <capacities>
+                    <li>Bite</li>
+                </capacities>
+                <power>16</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                <chanceFactor>0.8</chanceFactor>
+            </li>
+        </tools>
+        <race>
+            <baseBodySize>2.4</baseBodySize>
+            <baseHealthScale>1.8</baseHealthScale>
+            <lifeStageAges Inherit="False">
+                <li>
+                    <def>HumanlikeBaby</def>
+                    <minAge>0</minAge>
+                </li>
+                <li>
+                    <def>HumanlikeChild</def>
+                    <minAge>3</minAge>
+                    <soundWounded>Pawn_Cat_Injured</soundWounded>
+                    <soundDeath>Pawn_Cat_Death</soundDeath>
+                    <soundCall>Pawn_Cat_Call</soundCall>
+                    <soundAngry>Pawn_Cat_Angry</soundAngry>
+                </li>
+                <li MayRequire="Ludeon.RimWorld.Biotech">
+                    <def>HumanlikePreTeenager</def>
+                    <minAge>9</minAge>
+                    <soundWounded>Pawn_Cat_Injured</soundWounded>
+                    <soundDeath>Pawn_Cat_Death</soundDeath>
+                    <soundCall>Pawn_Cat_Call</soundCall>
+                    <soundAngry>Pawn_Cat_Angry</soundAngry>
+                </li>
+                <li>
+                    <def>HumanlikeTeenager</def>
+                    <minAge>13</minAge>
+                    <soundWounded>Pawn_Cat_Injured</soundWounded>
+                    <soundDeath>Pawn_Cat_Death</soundDeath>
+                    <soundCall>Pawn_Cat_Call</soundCall>
+                    <soundAngry>Pawn_Cat_Angry</soundAngry>
+                </li>
+                <li>
+                    <def>ESCP_LifeStage_SencheAdult</def>
+                    <minAge>18</minAge>
+                    <soundWounded>Pawn_Cat_Injured</soundWounded>
+                    <soundDeath>Pawn_Cat_Death</soundDeath>
+                    <soundCall>Pawn_Cat_Call</soundCall>
+                    <soundAngry>Pawn_Cat_Angry</soundAngry>
+                </li>
+            </lifeStageAges>
+        </race>
+        <modExtensions>
+            <li Class="ESCP.Core.RaceExtension_Quadruped">
+                <bodyTypes>
+                    <li>ESCP_Senche</li>
+                </bodyTypes>
+                <childBodyType>ESCP_SencheChild</childBodyType>
+                <headOffsetSouth>(0, -0.627)</headOffsetSouth>
+                <headOffsetNorth>(0, 0.45)</headOffsetNorth>
+                <headOffsetEast>(0.4, 0.1)</headOffsetEast>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <ThingDef ParentName="Human">
+        <defName>ESCP_Race_Alfiq</defName>
+        <label>Alfiq</label>
+        <description>A Khajiit the size of a house cat, and better read than whoever just tried to pick it up.</description>
+        <statBases>
+            <MoveSpeed>4.4</MoveSpeed>
+            <ComfyTemperatureMin>-15</ComfyTemperatureMin>
+            <MeleeDodgeChance>6</MeleeDodgeChance>
+        </statBases>
+        <tools Inherit="False">
+            <li>
+                <label>left claw</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>4</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+                <chanceFactor>1</chanceFactor>
+            </li>
+            <li>
+                <label>right claw</label>
+                <capacities>
+                    <li>Scratch</li>
+                </capacities>
+                <power>4</power>
+                <cooldownTime>1.5</cooldownTime>
+                <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+                <chanceFactor>1</chanceFactor>
+            </li>
+            <li>
+                <label>teeth</label>
+                <capacities>
+                    <li>Bite</li>
+                </capacities>
+                <power>5</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                <chanceFactor>0.8</chanceFactor>
+            </li>
+        </tools>
+        <race>
+            <baseBodySize>0.32</baseBodySize>
+            <baseHealthScale>0.5</baseHealthScale>
+            <lifeStageAges Inherit="False">
+                <li>
+                    <def>HumanlikeBaby</def>
+                    <minAge>0</minAge>
+                </li>
+                <li>
+                    <def>HumanlikeChild</def>
+                    <minAge>3</minAge>
+                    <soundWounded>Pawn_Cat_Injured</soundWounded>
+                    <soundDeath>Pawn_Cat_Death</soundDeath>
+                    <soundCall>Pawn_Cat_Call</soundCall>
+                    <soundAngry>Pawn_Cat_Angry</soundAngry>
+                </li>
+                <li MayRequire="Ludeon.RimWorld.Biotech">
+                    <def>HumanlikePreTeenager</def>
+                    <minAge>9</minAge>
+                    <soundWounded>Pawn_Cat_Injured</soundWounded>
+                    <soundDeath>Pawn_Cat_Death</soundDeath>
+                    <soundCall>Pawn_Cat_Call</soundCall>
+                    <soundAngry>Pawn_Cat_Angry</soundAngry>
+                </li>
+                <li>
+                    <def>HumanlikeTeenager</def>
+                    <minAge>13</minAge>
+                    <soundWounded>Pawn_Cat_Injured</soundWounded>
+                    <soundDeath>Pawn_Cat_Death</soundDeath>
+                    <soundCall>Pawn_Cat_Call</soundCall>
+                    <soundAngry>Pawn_Cat_Angry</soundAngry>
+                </li>
+                <li>
+                    <def>ESCP_LifeStage_AlfiqAdult</def>
+                    <minAge>18</minAge>
+                    <soundWounded>Pawn_Cat_Injured</soundWounded>
+                    <soundDeath>Pawn_Cat_Death</soundDeath>
+                    <soundCall>Pawn_Cat_Call</soundCall>
+                    <soundAngry>Pawn_Cat_Angry</soundAngry>
+                </li>
+            </lifeStageAges>
+        </race>
+        <modExtensions>
+            <li Class="ESCP.Core.RaceExtension_Quadruped">
+                <bodyTypes>
+                    <li>ESCP_AlfiqThin</li>
+                    <li>ESCP_AlfiqFat</li>
+                </bodyTypes>
+                <childBodyType>ESCP_AlfiqChild</childBodyType>
+                <headOffsetSouth>(0, -0.45)</headOffsetSouth>
+                <headOffsetNorth>(0, -0.1)</headOffsetNorth>
+                <headOffsetEast>(0.1, -0.25)</headOffsetEast>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+</Defs>

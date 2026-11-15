@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <HediffDef>
+        <defName>ESCP_Hediff_Khajiit_MoonStride</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>moon stride</label>
+        <description>This Khajiit is moving on moonlight.</description>
+        <defaultLabelColor>(0.75, 0.75, 0.95)</defaultLabelColor>
+        <isBad>false</isBad>
+        <initialSeverity>1</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>1800~1800</disappearsAfterTicks>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <MeleeDodgeChance>6</MeleeDodgeChance>
+                    <MoveSpeed>0.5</MoveSpeed>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+</Defs>

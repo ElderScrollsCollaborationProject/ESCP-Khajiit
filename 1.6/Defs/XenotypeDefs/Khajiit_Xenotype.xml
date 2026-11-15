@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <XenotypeDef>
+        <defName>ESCP_Xenotype_Khajiit</defName>
+        <label>Khajiit</label>
+        <iconPath>UI/Icons/Xenotypes/Hussar</iconPath>
+        <inheritable>true</inheritable>
+        <description>The cat folk of Elsweyr, one of the oldest peoples in Tamriel. The moons under which a Khajiit is born decide the shape they take, so one family can hold a tiger-sized warrior and a child who could pass for a Bosmer. These are the upright, furred form most outsiders picture: quick, sharp-eyed and slow to trust. Other races call them thieves, usually while buying something from them.</description>
+        <descriptionShort>Furred cat folk of Elsweyr: quick, nimble and at home in the dark.</descriptionShort>
+        <genes>
+            <li>ESCP_Gene_Khajiit_Blood</li>
+            <li>ESCP_Gene_Khajiit_Nimble</li>
+            <li>ESCP_Gene_Khajiit_Hair</li>
+            <li>ESCP_Gene_Khajiit_Fur</li>
+            <li>ESCP_Gene_Khajiit_Ears</li>
+            <li>ESCP_Gene_Khajiit_Tail</li>
+            <li>DarkVision</li>
+            <li>Hair_Blonde</li>
+            <li>Hair_ReddishBrown</li>
+            <li>Hair_DarkBrown</li>
+            <li>Hair_MidBlack</li>
+            <li>Hair_Gray</li>
+            <li>Hair_SnowWhite</li>
+        </genes>
+    </XenotypeDef>
+
+    <XenotypeDef>
+        <defName>ESCP_Xenotype_OhmesRaht</defName>
+        <label>Ohmes-Raht</label>
+        <iconPath>UI/Icons/Xenotypes/Hussar</iconPath>
+        <inheritable>true</inheritable>
+        <description>Born when Jone was full and Jode was new, the Ohmes-Raht stand close to human height and keep their bare faces, but have the ears and tail of a cat. They are often sent abroad as the clans' go-betweens, since outsiders find them easier to look at while being cheated.</description>
+        <descriptionShort>Bare-faced Khajiit with a cat's ears and tail.</descriptionShort>
+        <genes>
+            <li>ESCP_Gene_Khajiit_Blood</li>
+            <li>ESCP_Gene_Khajiit_Nimble</li>
+            <li>ESCP_Gene_Khajiit_Hair</li>
+            <li>ESCP_Gene_Khajiit_Ears</li>
+            <li>ESCP_Gene_Khajiit_Tail</li>
+            <li>DarkVision</li>
+            <li>Hair_Blonde</li>
+            <li>Hair_ReddishBrown</li>
+            <li>Hair_DarkBrown</li>
+            <li>Hair_MidBlack</li>
+            <li>Hair_Gray</li>
+            <li>Hair_SnowWhite</li>
+        </genes>
+    </XenotypeDef>
+
+    <XenotypeDef>
+        <defName>ESCP_Xenotype_Ohmes</defName>
+        <label>Ohmes</label>
+        <iconPath>UI/Icons/Xenotypes/Hussar</iconPath>
+        <inheritable>true</inheritable>
+        <description>The most human-looking form, easily mistaken for a Bosmer. Ohmes tattoo their faces to resemble the great cats, so nobody forgets whose children they are. In the cities of the Dominion, many have found that it is occasionally useful to let people forget.</description>
+        <descriptionShort>Elf-like Khajiit who could pass among outsiders.</descriptionShort>
+        <genes>
+            <li>ESCP_Gene_Khajiit_Blood</li>
+            <li>ESCP_Gene_Khajiit_Nimble</li>
+            <li>ESCP_Gene_Khajiit_Hair</li>
+            <li>ESCP_Gene_MerEars</li>
+        </genes>
+    </XenotypeDef>
+
+    <XenotypeDef>
+        <defName>ESCP_Xenotype_Senche</defName>
+        <label>Senche</label>
+        <iconPath>UI/Icons/Xenotypes/Hussar</iconPath>
+        <inheritable>true</inheritable>
+        <description>Born when both moons are full and Jone rises first, Senche are tiger-sized Khajiit who walk on four legs and speak as well as anyone. Outsiders often take them for mounts, and the Khajiit let them make that mistake exactly once. They cannot hold a tool, but they do not need one in a fight.</description>
+        <descriptionShort>Tiger-sized Khajiit warriors on four legs.</descriptionShort>
+        <genes>
+            <li>ESCP_Gene_Khajiit_Blood</li>
+            <li>ESCP_Gene_Khajiit_Quadruped</li>
+            <li>ESCP_Gene_Senche_Form</li>
+            <li>ESCP_Gene_Senche_Ears</li>
+            <li>ESCP_Gene_Senche_Tail</li>
+            <li>DarkVision</li>
+            <li>Hair_Blonde</li>
+            <li>Hair_ReddishBrown</li>
+            <li>Hair_DarkBrown</li>
+            <li>Hair_MidBlack</li>
+            <li>Hair_Gray</li>
+            <li>Hair_SnowWhite</li>
+        </genes>
+        <modExtensions>
+            <li Class="ESCP.Core.XenotypeExtension_Race">
+                <pawnKind>ESCP_Pawnkind_Khajiit_Senche</pawnKind>
+            </li>
+        </modExtensions>
+    </XenotypeDef>
+
+    <XenotypeDef>
+        <defName>ESCP_Xenotype_Alfiq</defName>
+        <label>Alfiq</label>
+        <iconPath>UI/Icons/Xenotypes/Hussar</iconPath>
+        <inheritable>true</inheritable>
+        <description>Alfiq look like ordinary house cats and are sharp, dignified scholars and diplomats who resent the comparison deeply. They cannot do any work that takes hands, but no clan moot has ever ended without one having the last word.</description>
+        <descriptionShort>House-cat sized Khajiit orators and scholars.</descriptionShort>
+        <genes>
+            <li>ESCP_Gene_Khajiit_Blood</li>
+            <li>ESCP_Gene_Khajiit_Quadruped</li>
+            <li>ESCP_Gene_Alfiq_Form</li>
+            <li>ESCP_Gene_Alfiq_Ears</li>
+            <li>ESCP_Gene_Alfiq_Tail</li>
+            <li>DarkVision</li>
+            <li>Hair_Blonde</li>
+            <li>Hair_ReddishBrown</li>
+            <li>Hair_DarkBrown</li>
+            <li>Hair_MidBlack</li>
+            <li>Hair_Gray</li>
+            <li>Hair_SnowWhite</li>
+        </genes>
+        <modExtensions>
+            <li Class="ESCP.Core.XenotypeExtension_Race">
+                <pawnKind>ESCP_Pawnkind_Khajiit_Alfiq</pawnKind>
+            </li>
+        </modExtensions>
+    </XenotypeDef>
+
+</Defs>

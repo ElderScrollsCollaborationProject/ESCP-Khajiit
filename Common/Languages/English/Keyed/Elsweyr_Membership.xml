@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Elsweyr_Enlist_Letter_Title>Pledged to Elsweyr</ESCP_Elsweyr_Enlist_Letter_Title>
+    <ESCP_Elsweyr_Enlist_Letter_Label>The colony has pledged itself to the Mane. Khajiit of every clan will treat you as a friend of Elsweyr.</ESCP_Elsweyr_Enlist_Letter_Label>
+    <ESCP_Elsweyr_Enlist_Button_Label>Pledge to the Mane</ESCP_Elsweyr_Enlist_Button_Label>
+    <ESCP_Elsweyr_Enlist_Button_Desc>Join the clans of Elsweyr under the Mane. The sands are hot, the trade is good.</ESCP_Elsweyr_Enlist_Button_Desc>
+    <ESCP_Elsweyr_Enlist_Requrements_Not_Satisfied>The clans of Elsweyr do not know you. Standing: {0}.</ESCP_Elsweyr_Enlist_Requrements_Not_Satisfied>
+    <ESCP_Elsweyr_Enlisted_To_Hostile_Faction>Elsweyr does not accept the pledge of its enemies.</ESCP_Elsweyr_Enlisted_To_Hostile_Faction>
+    <ESCP_Elsweyr_Enlisted_With_Key>Pledged to the Mane</ESCP_Elsweyr_Enlisted_With_Key>
+    <ESCP_Elsweyr_Missions_Label>Clan errands</ESCP_Elsweyr_Missions_Label>
+    <ESCP_Elsweyr_Missions_Desc>See what the clans want done.</ESCP_Elsweyr_Missions_Desc>
+    <ESCP_Elsweyr_Menu_Missions_Desc>Errands for the clans of Elsweyr. Khajiit pays when the work is done.</ESCP_Elsweyr_Menu_Missions_Desc>
+    <ESCP_Elsweyr_Menu_Missions_Select_Quest>Select a job</ESCP_Elsweyr_Menu_Missions_Select_Quest>
+    <ESCP_Elsweyr_Menu_Missions_Start_Quest>Accept</ESCP_Elsweyr_Menu_Missions_Start_Quest>
+    <ESCP_Elsweyr_Menu_Missions_Collect_Bounty>Collect</ESCP_Elsweyr_Menu_Missions_Collect_Bounty>
+    <ESCP_Elsweyr_Provisions_Label>Draw caravan stores</ESCP_Elsweyr_Provisions_Label>
+    <ESCP_Elsweyr_Provisions_Desc>Dried meat and sweet bread from the caravans.</ESCP_Elsweyr_Provisions_Desc>
+    <ESCP_Elsweyr_Storage_Label>Caravan stash</ESCP_Elsweyr_Storage_Label>
+    <ESCP_Elsweyr_Storage_Desc>Leave goods with a Khajiit caravan.</ESCP_Elsweyr_Storage_Desc>
+    <ESCP_Elsweyr_Resign_Menu_Text>Leave the Mane's service? The clans will remember.</ESCP_Elsweyr_Resign_Menu_Text>
+    <ESCP_Elsweyr_Resign_Letter_Title>Left Elsweyr</ESCP_Elsweyr_Resign_Letter_Title>
+    <ESCP_Elsweyr_Resign_Letter_Label>The colony no longer serves the Mane.</ESCP_Elsweyr_Resign_Letter_Label>
+    <ESCP_Elsweyr_Resign_Button_Label>Leave Elsweyr</ESCP_Elsweyr_Resign_Button_Label>
+    <ESCP_Elsweyr_Resign_Button_Desc>End your pledge to the Mane.</ESCP_Elsweyr_Resign_Button_Desc>
+    <ESCP_Elsweyr_Kick_Out_Letter_Title>Cast out of Elsweyr</ESCP_Elsweyr_Kick_Out_Letter_Title>
+    <ESCP_Elsweyr_Kick_Out_Label_Title>The clans of Elsweyr have turned their backs on the colony.</ESCP_Elsweyr_Kick_Out_Label_Title>
+    <ESCP_Elsweyr_Salary_Label>Collect your share</ESCP_Elsweyr_Salary_Label>
+    <ESCP_Elsweyr_Salary_Desc>A share of the clans' caravan profits.</ESCP_Elsweyr_Salary_Desc>
+    <ESCP_Elsweyr_Work_0_Label>Trade along the sands</ESCP_Elsweyr_Work_0_Label>
+    <ESCP_Elsweyr_Work_0_Desc>Ride with the caravans and help strike a good bargain.</ESCP_Elsweyr_Work_0_Desc>
+    <ESCP_Elsweyr_Work_1_Label>Train with the Mane's guard</ESCP_Elsweyr_Work_1_Label>
+    <ESCP_Elsweyr_Work_1_Desc>Learn the claw and the blade from the Mane's warriors.</ESCP_Elsweyr_Work_1_Desc>
+
+</LanguageData>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ESCP.Core.CharacterDef>
+        <defName>ESCP_Character_Akkhuz</defName>
+        <pawnKind>ESCP_Unique_Pawnkind_Khajiit_Mane</pawnKind>
+        <faction>ESCP_Faction_Elsweyr</faction>
+        <xenotype>ESCP_Xenotype_Khajiit</xenotype>
+        <roles>
+            <li Class="ESCP.Core.CharacterRole_FactionLeader">
+                <seniority>1500</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Akkhuz-ri</firstName>
+                <nickname>the Mane</nickname>
+                <gender>Male</gender>
+                <age>58</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(205, 165, 100)</hairColor>
+                <hairDef>Decent</hairDef>
+                <headTypeDef>ESCP_HeadKhajiit_Male_Average_Normal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+            <li Class="ESCP.Core.CharacterTraitsDefinition">
+                <traits>
+                    <li>
+                        <key>ESCP_Trait_Khajiit_Moonlit</key>
+                        <value>0</value>
+                    </li>
+                </traits>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef>
+        <defName>ESCP_Character_DroZhan</defName>
+        <pawnKind>ESCP_Unique_Pawnkind_Khajiit_Renegade</pawnKind>
+        <faction>ESCP_Faction_Renrijra</faction>
+        <xenotype>ESCP_Xenotype_Khajiit</xenotype>
+        <roles>
+            <li Class="ESCP.Core.CharacterRole_FactionLeader">
+                <seniority>1500</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Dro-Zhan</firstName>
+                <nickname>Scar</nickname>
+                <gender>Male</gender>
+                <age>44</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(60, 45, 35)</hairColor>
+                <hairDef>Decent</hairDef>
+                <headTypeDef>ESCP_HeadKhajiit_Male_Average_Wide</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef>
+        <defName>ESCP_Character_Shavara</defName>
+        <pawnKind>ESCP_Unique_Pawnkind_Khajiit_ClanMother</pawnKind>
+        <faction>ESCP_Faction_Bandaari</faction>
+        <xenotype>ESCP_Xenotype_Khajiit</xenotype>
+        <roles>
+            <li Class="ESCP.Core.CharacterRole_FactionLeader">
+                <seniority>1500</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Shavara</firstName>
+                <nickname>Clan Mother</nickname>
+                <gender>Female</gender>
+                <age>61</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(190, 150, 110)</hairColor>
+                <hairDef>Decent</hairDef>
+                <headTypeDef>ESCP_HeadKhajiit_Female_Average_Normal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+</Defs>

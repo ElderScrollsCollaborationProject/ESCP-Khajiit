@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <AbilityDef>
+        <defName>ESCP_Ability_Khajiit_MoonStride</defName>
+        <label>Moon Stride</label>
+        <description>The Khajiit runs on the light of Jone and Jode for half a minute, too fast to be easily caught and too quick to be easily hit.</description>
+        <iconPath>UI/Abilities/BulletShield</iconPath>
+        <aiCanUse>true</aiCanUse>
+        <hostile>false</hostile>
+        <targetRequired>false</targetRequired>
+        <showOnCharacterCard>true</showOnCharacterCard>
+        <cooldownTicksRange>60000</cooldownTicksRange>
+        <statBases>
+            <Ability_Duration>30</Ability_Duration>
+        </statBases>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <drawAimPie>false</drawAimPie>
+            <requireLineOfSight>false</requireLineOfSight>
+            <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+            <warmupTime>1.0</warmupTime>
+            <range>0</range>
+            <targetable>false</targetable>
+            <targetParams>
+                <canTargetSelf>true</canTargetSelf>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="CompProperties_AbilityGiveHediff">
+                <compClass>CompAbilityEffect_GiveHediff</compClass>
+                <hediffDef>ESCP_Hediff_Khajiit_MoonStride</hediffDef>
+                <onlyApplyToSelf>true</onlyApplyToSelf>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="ESCP.Core.Magic.AbilityExtension_SpellAI">
+                <role>SelfBuff</role>
+                <buffHediff>ESCP_Hediff_Khajiit_MoonStride</buffHediff>
+            </li>
+        </modExtensions>
+    </AbilityDef>
+
+</Defs>

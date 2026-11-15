@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <FactionDef ParentName="PlayerFactionBase">
+        <defName>ESCP_Faction_Khajiit_Player</defName>
+        <label>Bandaari Caravan</label>
+        <description>A small Bandaari caravan that has gone off the road for good. They have a few wagons, a few debts, and a very firm belief that this empty land was left behind on purpose.</description>
+        <isPlayer>true</isPlayer>
+        <techLevel>Medieval</techLevel>
+        <basicMemberKind>ESCP_Pawnkind_Khajiit_Settler</basicMemberKind>
+        <pawnSingular>Khajiit</pawnSingular>
+        <pawnsPlural>Khajiit</pawnsPlural>
+        <leaderTitle>Chief</leaderTitle>
+        <factionIconPath>World/WorldObjects/ESCP_Khajiit_Kingdom</factionIconPath>
+        <colorSpectrum>
+            <li>(0.35, 0.55, 0.25)</li>
+        </colorSpectrum>
+        <xenotypeSet MayRequire="Ludeon.RimWorld.Biotech">
+            <xenotypeChances>
+                <ESCP_Xenotype_Khajiit>0.75</ESCP_Xenotype_Khajiit>
+                <ESCP_Xenotype_OhmesRaht>0.15</ESCP_Xenotype_OhmesRaht>
+                <ESCP_Xenotype_Ohmes>0.1</ESCP_Xenotype_Ohmes>
+            </xenotypeChances>
+        </xenotypeSet>
+        <allowedCultures>
+            <li>ESCP_Culture_Khajiit</li>
+        </allowedCultures>
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>ESCP_Backstory_Khajiit_Child</li>
+                    <li>ESCP_Backstory_Khajiit_Citizen</li>
+                    <li>ESCP_Backstory_Khajiit_Military</li>
+                    <li>ESCP_Backstory_Khajiit_Mage</li>
+                </categories>
+            </li>
+        </backstoryFilters>
+
+        <modExtensions>
+            <li Class="ESCP_RaceTools.FactionProperties">
+                <factionTags>
+                    <li>ESCP_MoonSugar</li>
+                </factionTags>
+            </li>
+        </modExtensions>
+    </FactionDef>
+
+</Defs>

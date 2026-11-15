@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Khajiit_Moonlit</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>moon-touched</label>
+                <description>Reads every event in the phases of Jone and Jode, and is right more often than is comfortable.</description>
+                <statOffsets>
+                    <PainShockThreshold>0.05</PainShockThreshold>
+                </statOffsets>
+                <skillGains>
+                    <Intellectual>2</Intellectual>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Khajiit_Quickfingers</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>quick-fingered</label>
+                <description>Has clever paws and a habit of finding things in the wrong pockets, including their own.</description>
+                <statOffsets>
+                    <GeneralLaborSpeed>0.1</GeneralLaborSpeed>
+                </statOffsets>
+                <skillGains>
+                    <Social>2</Social>
+                </skillGains>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>ESCP_Trait_Khajiit_Clawsworn</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>claw-sworn</label>
+                <description>Trained under one of the monastic schools of Elsweyr, and keeps their claws sharper than their manners.</description>
+                <statOffsets>
+                    <MeleeHitChance>2</MeleeHitChance>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+</Defs>

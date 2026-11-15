@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ESCP_Bandaari_Enlist_Letter_Title>Riding with the Bandaari</ESCP_Bandaari_Enlist_Letter_Title>
+    <ESCP_Bandaari_Enlist_Letter_Label>The Bandaari have counted the colony as one of their own. There is always a caravan going somewhere.</ESCP_Bandaari_Enlist_Letter_Label>
+    <ESCP_Bandaari_Enlist_Button_Label>Ride with the Bandaari</ESCP_Bandaari_Enlist_Button_Label>
+    <ESCP_Bandaari_Enlist_Button_Desc>Join the Bandaari pedlars, who go everywhere and sell everything.</ESCP_Bandaari_Enlist_Button_Desc>
+    <ESCP_Bandaari_Enlist_Requrements_Not_Satisfied>The Bandaari are not sure you are good for business. Standing: {0}.</ESCP_Bandaari_Enlist_Requrements_Not_Satisfied>
+    <ESCP_Bandaari_Enlisted_To_Hostile_Faction>The Bandaari do not trade with enemies. Mostly.</ESCP_Bandaari_Enlisted_To_Hostile_Faction>
+    <ESCP_Bandaari_Enlisted_With_Key>Rides with the Bandaari</ESCP_Bandaari_Enlisted_With_Key>
+    <ESCP_Bandaari_Missions_Label>Caravan jobs</ESCP_Bandaari_Missions_Label>
+    <ESCP_Bandaari_Missions_Desc>See what the caravan masters need.</ESCP_Bandaari_Missions_Desc>
+    <ESCP_Bandaari_Menu_Missions_Desc>Jobs from the Bandaari caravan masters. Paid on delivery.</ESCP_Bandaari_Menu_Missions_Desc>
+    <ESCP_Bandaari_Menu_Missions_Select_Quest>Select a job</ESCP_Bandaari_Menu_Missions_Select_Quest>
+    <ESCP_Bandaari_Menu_Missions_Start_Quest>Accept</ESCP_Bandaari_Menu_Missions_Start_Quest>
+    <ESCP_Bandaari_Menu_Missions_Collect_Bounty>Collect</ESCP_Bandaari_Menu_Missions_Collect_Bounty>
+    <ESCP_Bandaari_Provisions_Label>Draw caravan stores</ESCP_Bandaari_Provisions_Label>
+    <ESCP_Bandaari_Provisions_Desc>Whatever the caravan has extra of this week.</ESCP_Bandaari_Provisions_Desc>
+    <ESCP_Bandaari_Storage_Label>Caravan stash</ESCP_Bandaari_Storage_Label>
+    <ESCP_Bandaari_Storage_Desc>Leave goods with a Bandaari caravan.</ESCP_Bandaari_Storage_Desc>
+    <ESCP_Bandaari_Resign_Menu_Text>Leave the Bandaari? They will sell your spot to someone else.</ESCP_Bandaari_Resign_Menu_Text>
+    <ESCP_Bandaari_Resign_Letter_Title>Left the Bandaari</ESCP_Bandaari_Resign_Letter_Title>
+    <ESCP_Bandaari_Resign_Letter_Label>The colony no longer rides with the Bandaari.</ESCP_Bandaari_Resign_Letter_Label>
+    <ESCP_Bandaari_Resign_Button_Label>Leave the caravans</ESCP_Bandaari_Resign_Button_Label>
+    <ESCP_Bandaari_Resign_Button_Desc>Stop riding with the Bandaari.</ESCP_Bandaari_Resign_Button_Desc>
+    <ESCP_Bandaari_Kick_Out_Letter_Title>Dropped by the Bandaari</ESCP_Bandaari_Kick_Out_Letter_Title>
+    <ESCP_Bandaari_Kick_Out_Label_Title>The Bandaari no longer think the colony is good for business.</ESCP_Bandaari_Kick_Out_Label_Title>
+    <ESCP_Bandaari_Salary_Label>Collect your cut</ESCP_Bandaari_Salary_Label>
+    <ESCP_Bandaari_Salary_Desc>Your cut of the caravan's sales.</ESCP_Bandaari_Salary_Desc>
+    <ESCP_Bandaari_Work_0_Label>Sell at the stalls</ESCP_Bandaari_Work_0_Label>
+    <ESCP_Bandaari_Work_0_Desc>Hawk goods at the caravan stalls and take a share of the profit.</ESCP_Bandaari_Work_0_Desc>
+    <ESCP_Bandaari_Work_1_Label>Haggle with the masters</ESCP_Bandaari_Work_1_Label>
+    <ESCP_Bandaari_Work_1_Desc>Watch the caravan masters bargain and learn how it is done.</ESCP_Bandaari_Work_1_Desc>
+
+</LanguageData>

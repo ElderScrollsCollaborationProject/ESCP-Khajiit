@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <BodyTypeDef>
+        <defName>ESCP_Senche</defName>
+        <bodyNakedGraphicPath>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/Naked_ESCP_Senche</bodyNakedGraphicPath>
+        <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</bodyDessicatedGraphicPath>
+        <headOffset>(0.09, 0.34)</headOffset>
+        <bedOffset>0</bedOffset>
+    </BodyTypeDef>
+
+    <BodyTypeDef>
+        <defName>ESCP_SencheChild</defName>
+        <bodyNakedGraphicPath>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Senche/Naked_ESCP_SencheChild</bodyNakedGraphicPath>
+        <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</bodyDessicatedGraphicPath>
+        <headOffset>(0.09, 0.34)</headOffset>
+        <bedOffset>0</bedOffset>
+    </BodyTypeDef>
+
+    <BodyTypeDef>
+        <defName>ESCP_AlfiqThin</defName>
+        <bodyNakedGraphicPath>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/Naked_ESCP_AlfiqThin</bodyNakedGraphicPath>
+        <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</bodyDessicatedGraphicPath>
+        <headOffset>(0.09, 0.34)</headOffset>
+        <bedOffset>0</bedOffset>
+    </BodyTypeDef>
+
+    <BodyTypeDef>
+        <defName>ESCP_AlfiqFat</defName>
+        <bodyNakedGraphicPath>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/Naked_ESCP_AlfiqFat</bodyNakedGraphicPath>
+        <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</bodyDessicatedGraphicPath>
+        <headOffset>(0.09, 0.34)</headOffset>
+        <bedOffset>0</bedOffset>
+    </BodyTypeDef>
+
+    <BodyTypeDef>
+        <defName>ESCP_AlfiqChild</defName>
+        <bodyNakedGraphicPath>Things/Pawn/Humanlike/ESCP_Khajiit/Bodies/Alfiq/Naked_ESCP_AlfiqChild</bodyNakedGraphicPath>
+        <bodyDessicatedGraphicPath>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</bodyDessicatedGraphicPath>
+        <headOffset>(0.09, 0.34)</headOffset>
+        <bedOffset>0</bedOffset>
+    </BodyTypeDef>
+
+</Defs>

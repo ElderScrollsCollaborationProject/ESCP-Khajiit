@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <PawnKindDef Name="ESCP_Khajiit_UniqueCharacterBase" ParentName="ESCP_KhajiitkindBase" Abstract="true">
+        <showInDebugSpawner>false</showInDebugSpawner>
+        <apparelMoney>9999</apparelMoney>
+        <gearHealthRange>10</gearHealthRange>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>9999</weaponMoney>
+        <maxGenerationAge>300</maxGenerationAge>
+        <initialWillRange>5~7</initialWillRange>
+        <initialResistanceRange>25~35</initialResistanceRange>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_Khajiit_UniqueCharacterBase">
+        <defName>ESCP_Unique_Pawnkind_Khajiit_Mane</defName>
+        <label>Mane of Elsweyr</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>280</combatPower>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Khajiit_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Khajiit_Military</li>
+                    <li>ESCP_Backstory_Khajiit_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Khajiit_Moonlit>0</ESCP_Trait_Khajiit_Moonlit>
+            <ESCP_Trait_Khajiit_Clawsworn>0</ESCP_Trait_Khajiit_Clawsworn>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_Khajiit_UniqueCharacterBase">
+        <defName>ESCP_Unique_Pawnkind_Khajiit_Renegade</defName>
+        <label>Renrijra warlord</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>250</combatPower>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Khajiit_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Khajiit_Military</li>
+                    <li>ESCP_Backstory_Khajiit_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Khajiit_Moonlit>0</ESCP_Trait_Khajiit_Moonlit>
+            <ESCP_Trait_Khajiit_Clawsworn>0</ESCP_Trait_Khajiit_Clawsworn>
+        </forcedTraits>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="ESCP_Khajiit_UniqueCharacterBase">
+        <defName>ESCP_Unique_Pawnkind_Khajiit_ClanMother</defName>
+        <label>Bandaari clan mother</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>280</combatPower>
+        <weaponTags>
+            <li>MedievalMeleeAdvanced</li>
+        </weaponTags>
+        <apparelTags>
+            <li>MedievalBasic</li>
+            <li>MedievalMilitary</li>
+            <li>Cape</li>
+        </apparelTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>ESCP_Backstory_Khajiit_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>ESCP_Backstory_Khajiit_Military</li>
+                    <li>ESCP_Backstory_Khajiit_Mage</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <forcedTraits>
+            <ESCP_Trait_Khajiit_Moonlit>0</ESCP_Trait_Khajiit_Moonlit>
+            <ESCP_Trait_Khajiit_Clawsworn>0</ESCP_Trait_Khajiit_Clawsworn>
+        </forcedTraits>
+    </PawnKindDef>
+
+</Defs>

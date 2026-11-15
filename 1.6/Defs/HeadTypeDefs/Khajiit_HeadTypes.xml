@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>ESCP_HeadKhajiit_Female_Average_Normal</defName>
+        <randomChosen>false</randomChosen>
+        <graphicPath>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Female_Average_Normal</graphicPath>
+        <gender>Female</gender>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>ESCP_HeadKhajiit_Female_Average_Pointy</defName>
+        <randomChosen>false</randomChosen>
+        <graphicPath>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Female_Average_Pointy</graphicPath>
+        <gender>Female</gender>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>ESCP_HeadKhajiit_Female_Average_Wide</defName>
+        <randomChosen>false</randomChosen>
+        <graphicPath>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Female_Average_Wide</graphicPath>
+        <gender>Female</gender>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>ESCP_HeadKhajiit_Male_Average_Normal</defName>
+        <randomChosen>false</randomChosen>
+        <graphicPath>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Male_Average_Normal</graphicPath>
+        <gender>Male</gender>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>ESCP_HeadKhajiit_Male_Average_Pointy</defName>
+        <randomChosen>false</randomChosen>
+        <graphicPath>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Male_Average_Pointy</graphicPath>
+        <gender>Male</gender>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>ESCP_HeadKhajiit_Male_Average_Wide</defName>
+        <randomChosen>false</randomChosen>
+        <graphicPath>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Male_Average_Wide</graphicPath>
+        <gender>Male</gender>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>ESCP_HeadSenche_Male_Average_Normal</defName>
+        <randomChosen>false</randomChosen>
+        <graphicPath>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Male_Average_Normal</graphicPath>
+        <gender>Male</gender>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>ESCP_HeadSenche_Female_Average_Normal</defName>
+        <randomChosen>false</randomChosen>
+        <graphicPath>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Senche/Female_Average_Normal</graphicPath>
+        <gender>Female</gender>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>ESCP_HeadAlfiq_Male_Average_Normal</defName>
+        <randomChosen>false</randomChosen>
+        <graphicPath>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Alfiq/Male_Average_Normal</graphicPath>
+        <gender>Male</gender>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>ESCP_HeadAlfiq_Male_Average_Wide</defName>
+        <randomChosen>false</randomChosen>
+        <graphicPath>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Alfiq/Male_Average_Wide</graphicPath>
+        <gender>Male</gender>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>ESCP_HeadAlfiq_Female_Average_Normal</defName>
+        <randomChosen>false</randomChosen>
+        <graphicPath>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Alfiq/Female_Average_Normal</graphicPath>
+        <gender>Female</gender>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="AverageBase">
+        <defName>ESCP_HeadAlfiq_Female_Average_Wide</defName>
+        <randomChosen>false</randomChosen>
+        <graphicPath>Things/Pawn/Humanlike/ESCP_Khajiit/Heads/Alfiq/Female_Average_Wide</graphicPath>
+        <gender>Female</gender>
+    </HeadTypeDef>
+
+</Defs>

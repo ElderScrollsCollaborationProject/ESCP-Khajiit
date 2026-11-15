@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Khajiit_ClanKin</defName>
+        <label>clan kin</label>
+        <description>Recognized by the clans as one of their own, and therefore entitled to be overcharged a bit less.</description>
+        <tags>
+            <li>ESCP_Title_Khajiit</li>
+        </tags>
+        <seniority>0</seniority>
+        <favorCost>1</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>1</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Khajiit_MoonPriest</defName>
+        <label>moon priest</label>
+        <description>Trained to read the moons, name the cubs and tell clan mothers things they would prefer not to hear.</description>
+        <tags>
+            <li>ESCP_Title_Khajiit</li>
+        </tags>
+        <seniority>200</seniority>
+        <favorCost>6</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>2</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Khajiit_ClanElder</defName>
+        <label>clan elder</label>
+        <description>Trusted to settle quarrels between clans, which is the kind of honor most people try hard to avoid.</description>
+        <tags>
+            <li>ESCP_Title_Khajiit</li>
+        </tags>
+        <seniority>500</seniority>
+        <favorCost>10</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>3</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="ESCP_Base_Empire_Titles" MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>ESCP_Title_Khajiit_ManesVoice</defName>
+        <label>voice of the Mane</label>
+        <description>Carries the Mane's own word between the sixteen kingdoms, and is listened to out of respect or fear in about equal measure.</description>
+        <tags>
+            <li>ESCP_Title_Khajiit</li>
+        </tags>
+        <seniority>900</seniority>
+        <favorCost>16</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>4</permitPointsAwarded>
+    </RoyalTitleDef>
+
+</Defs>

@@ -1,0 +1,2255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Moon_Sugar_Picker</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Moon_Sugar_Picker</identifier>
+        <slot>Childhood</slot>
+        <title>moon sugar picker</title>
+        <titleShort>Picker</titleShort>
+        <description>Every harvest, [PAWN_nameDef] cut cane in the Pelletine fields until both hands were sticky to the wrist. The overseers docked pay for licking fingers, and nobody ever lost more pay than [PAWN_nameDef].</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>4</Plants>
+            <Cooking>1</Cooking>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Yarn_Royal</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Yarn_Royal</identifier>
+        <slot>Childhood</slot>
+        <title>yarn royal</title>
+        <titleShort>Royal</titleShort>
+        <description>In one Senchal alley, [PAWN_nameDef] ruled a court of street cubs from a throne of stolen wool. The decrees were absurd and the punishments involved a lot of pouncing, but everyone showed up.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Kitchen_Slave</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Kitchen_Slave</identifier>
+        <slot>Childhood</slot>
+        <title>kitchen slave</title>
+        <titleShort>Slave</titleShort>
+        <description>Sold to a Dunmer household before [PAWN_pronoun] could count, [PAWN_nameDef] learned every spice in the pantry by smell. [PAWN_pronoun] also learned which ones an unkind master could not taste.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>4</Cooking>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Escaped_Slave</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Escaped_Slave</identifier>
+        <slot>Childhood</slot>
+        <title>escaped slave</title>
+        <titleShort>Runaway</titleShort>
+        <description>[PAWN_nameDef] slipped the collar on a road through Stonefalls and walked west for two months. Anyone who has done that does not trust a locked door afterward.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Rimmen_Street_Cub</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Rimmen_Street_Cub</identifier>
+        <slot>Childhood</slot>
+        <title>Rimmen street cub</title>
+        <titleShort>Cub</titleShort>
+        <description>The markets of Rimmen raised [PAWN_nameDef] between the stalls. By eight, [PAWN_pronoun] could tell a Colovian coin from a shaved one by the sound it made hitting the ground.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Caravan_Cub</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Caravan_Cub</identifier>
+        <slot>Childhood</slot>
+        <title>caravan cub</title>
+        <titleShort>Caravan</titleShort>
+        <description>The clan's senche knew [PAWN_nameDef] by scent before anybody thought to teach [PAWN_objective] a trade. [PAWN_pronoun] slept on their flanks between Dune and Riverhold for most of ten years.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>3</Animals>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Fennec_Fox_Chaser</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Fennec_Fox_Chaser</identifier>
+        <slot>Childhood</slot>
+        <title>fennec fox chaser</title>
+        <titleShort>Chaser</titleShort>
+        <description>There was one fennec on the Anequina flats that [PAWN_nameDef] swore could talk. It never said anything useful, but the years of chasing it built a very good pair of legs.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>2</Animals>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Senche_Race_Groom</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Senche_Race_Groom</identifier>
+        <slot>Childhood</slot>
+        <title>senche race groom</title>
+        <titleShort>Groom</titleShort>
+        <description>[PAWN_nameDef] brushed racing senche at Orcrest for a copper a day, and bet that copper every day. The clan got tired of covering the losses and put [PAWN_objective] to shoveling.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>4</Animals>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Hunter_S_Whelp</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Hunter_S_Whelp</identifier>
+        <slot>Childhood</slot>
+        <title>hunter's whelp</title>
+        <titleShort>Whelp</titleShort>
+        <description>Before sunrise the hunters took [PAWN_nameDef] out into the Tenmar and left [PAWN_objective] there to find the way back. It only took a few tries before [PAWN_pronoun] brought a rabbit along too.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Thalmor_Ward</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Thalmor_Ward</identifier>
+        <slot>Childhood</slot>
+        <title>Thalmor ward</title>
+        <titleShort>Ward</titleShort>
+        <description>The Dominion offered to school a few clever Khajiiti children in Alinor. [PAWN_nameDef] came home with beautiful handwriting and a very clear idea of what the Altmer think of cats.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Temple_Foundling</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Temple_Foundling</identifier>
+        <slot>Childhood</slot>
+        <title>temple foundling</title>
+        <titleShort>Foundling</titleShort>
+        <description>Left on the steps of a shrine to Khenarthi during a sandstorm, [PAWN_nameDef] grew up carrying water for moon priests. They said the wind had delivered [PAWN_objective], which seemed unfair to the wind.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Cub_Of_A_Scribe</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Cub_Of_A_Scribe</identifier>
+        <slot>Childhood</slot>
+        <title>cub of a scribe</title>
+        <titleShort>Scribe's</titleShort>
+        <description>Clan contracts in Corinthe were written by [PAWN_nameDef]'s mother and copied by [PAWN_nameDef]. A misplaced word once cost someone a herd of guar, and that lesson only needed teaching once.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Tribal_Medic_S_Helper</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Tribal_Medic_S_Helper</identifier>
+        <slot>Childhood</slot>
+        <title>tribal medic's helper</title>
+        <titleShort>Helper</titleShort>
+        <description>The clan medic had bad knees and [PAWN_nameDef] had good ones. So [PAWN_pronoun] climbed for the herbs, boiled the rags and saw more of the insides of people than most adults ever do.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>4</Medicine>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Curious_Cub</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Curious_Cub</identifier>
+        <slot>Childhood</slot>
+        <title>curious cub</title>
+        <titleShort>Curious</titleShort>
+        <description>No trap, lock or hinge in the village survived [PAWN_nameDef]'s curiosity. A few of them worked better afterward, which was the only reason [PAWN_pronoun] was allowed to keep doing it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Scaredy_Cub</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Scaredy_Cub</identifier>
+        <slot>Childhood</slot>
+        <title>scaredy-cub</title>
+        <titleShort>Timid</titleShort>
+        <description>Thunder sent [PAWN_nameDef] under the wagon. So did loud uncles and most birds. The clan teased [PAWN_objective] for years, then noticed that [PAWN_pronoun] was the one who always spotted trouble first.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Cooking>2</Cooking>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Cub_Of_M_Aiq</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Cub_Of_M_Aiq</identifier>
+        <slot>Childhood</slot>
+        <title>cub of M'aiq</title>
+        <titleShort>Liar's</titleShort>
+        <description>[PAWN_nameDef] told everyone that [PAWN_possessive] father was M'aiq the Liar. The story varied, and that was fairly good evidence for it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Child_Racer</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Child_Racer</identifier>
+        <slot>Childhood</slot>
+        <title>child racer</title>
+        <titleShort>Racer</titleShort>
+        <description>Nobody in the canyon villages could outrun [PAWN_nameDef] on foot, and [PAWN_pronoun] made sure everyone knew it. The first time [PAWN_pronoun] lost, [PAWN_pronoun] did not speak for a week.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Animals>2</Animals>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Bone_Collector</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Bone_Collector</identifier>
+        <slot>Childhood</slot>
+        <title>bone collector</title>
+        <titleShort>Collector</titleShort>
+        <description>Old bones wash out of the Scar after every rain. [PAWN_nameDef] gathered them, carved them and sold them to Imperial visitors as dragon teeth, which most of them were not.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Whispering_Claw_Novice</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Whispering_Claw_Novice</identifier>
+        <slot>Childhood</slot>
+        <title>Whispering Claw novice</title>
+        <titleShort>Novice</titleShort>
+        <description>Sent to the monastery at seven, [PAWN_nameDef] spent two years sweeping before anyone showed [PAWN_objective] a stance. The sweeping, [PAWN_pronoun] was later told, had been the stance.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Desert_Rain_Novice</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Desert_Rain_Novice</identifier>
+        <slot>Childhood</slot>
+        <title>Desert Rain novice</title>
+        <titleShort>Novice</titleShort>
+        <description>The Desert Rain monks teach stillness first. [PAWN_nameDef] once sat on a dune through a whole day and a night to prove a point, and could not remember what the point had been.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Goutfang_Novice</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Goutfang_Novice</identifier>
+        <slot>Childhood</slot>
+        <title>Goutfang novice</title>
+        <titleShort>Novice</titleShort>
+        <description>At the Goutfang school [PAWN_nameDef] learned that a fist should find the place it will hurt most. [PAWN_pronoun] also learned where those places are, by having them found.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>3</Melee>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Riverhold_Ferry_Cub</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Riverhold_Ferry_Cub</identifier>
+        <slot>Childhood</slot>
+        <title>Riverhold ferry cub</title>
+        <titleShort>Ferry</titleShort>
+        <description>[PAWN_nameDef] poled a ferry across the Xylo for strangers' coin, soaking wet and furious most days. Khajiit hate the water, but they do love getting paid.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Skooma_Runner</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Skooma_Runner</identifier>
+        <slot>Childhood</slot>
+        <title>skooma runner</title>
+        <titleShort>Runner</titleShort>
+        <description>Someone needed to take small packets across Senchal without being noticed, and a skinny cub was perfect. [PAWN_nameDef] knew every roof in the harbor district by the time [PAWN_pronoun] was ten.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Orphan_Of_The_Knahaten_Flu</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Orphan_Of_The_Knahaten_Flu</identifier>
+        <slot>Childhood</slot>
+        <title>orphan of the Knahaten Flu</title>
+        <titleShort>Orphan</titleShort>
+        <description>The flu came through when [PAWN_nameDef] was small and left [PAWN_objective] the last one in the house. Neighbors shared what they had, which was not much, and nobody talks about that year.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>2</Medicine>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Pedlar_S_Cub</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Pedlar_S_Cub</identifier>
+        <slot>Childhood</slot>
+        <title>pedlar's cub</title>
+        <titleShort>Pedlar's</titleShort>
+        <description>[PAWN_nameDef] grew up with the Bandaari, who taught [PAWN_objective] that anything left unattended has been given to you. A magistrate in Rimmen explained the other view of it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Moon_Watcher</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Moon_Watcher</identifier>
+        <slot>Childhood</slot>
+        <title>moon-watcher</title>
+        <titleShort>Watcher</titleShort>
+        <description>[PAWN_nameDef] kept a knotted cord that recorded every phase of Jone and Jode for six years. The moon priests were impressed, right up until [PAWN_pronoun] corrected them.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Well_Digger_S_Cub</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Well_Digger_S_Cub</identifier>
+        <slot>Childhood</slot>
+        <title>well digger's cub</title>
+        <titleShort>Digger's</titleShort>
+        <description>In Anequina, water is wealth and the people who find it are owed a great deal. [PAWN_nameDef] spent childhood at the bottom of a rope, listening to wet rock.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>4</Mining>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Tanner_S_Cub</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Tanner_S_Cub</identifier>
+        <slot>Childhood</slot>
+        <title>tanner's cub</title>
+        <titleShort>Tanner's</titleShort>
+        <description>The whole family smelled of the vats and the whole village said so. [PAWN_nameDef] can still judge a hide in the dark with one paw, and still cannot smell much of anything.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>4</Crafting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Sugar_Bakery_Cub</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Sugar_Bakery_Cub</identifier>
+        <slot>Childhood</slot>
+        <title>sugar-bakery cub</title>
+        <titleShort>Baker's</titleShort>
+        <description>A Khajiiti bakery runs on moon sugar and gossip. [PAWN_nameDef] learned both behind the counter in Torval, and put on a lot of weight doing it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>3</Cooking>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Shrine_Bell_Ringer</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Shrine_Bell_Ringer</identifier>
+        <slot>Childhood</slot>
+        <title>shrine bell ringer</title>
+        <titleShort>Ringer</titleShort>
+        <description>Twice each night, [PAWN_nameDef] climbed the shrine tower to ring in the moons. Being late brought a stern lecture about the Lunar Lattice, and being asleep brought a colder one.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Storm_Cub</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Storm_Cub</identifier>
+        <slot>Childhood</slot>
+        <title>storm cub</title>
+        <titleShort>Storm</titleShort>
+        <description>Born in the middle of a Pelletine monsoon, [PAWN_nameDef] was told it marked [PAWN_objective] for something. Nothing ever came of that, but [PAWN_pronoun] kept an excellent eye on the sky.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Animals>2</Animals>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Courier_S_Cub</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Courier_S_Cub</identifier>
+        <slot>Childhood</slot>
+        <title>courier's cub</title>
+        <titleShort>Courier</titleShort>
+        <description>Clan elders are always sending messages to other clan elders, and few of them want anything written down. [PAWN_nameDef] could carry an insult across Elsweyr word for word.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>1</Melee>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_War_Cub</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_War_Cub</identifier>
+        <slot>Childhood</slot>
+        <title>war cub</title>
+        <titleShort>War</titleShort>
+        <description>The Five Companions War was over by then, but nobody had told [PAWN_nameDef]'s village. [PAWN_pronoun] grew up with a wooden spear and a real hatred of Colovians.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>3</Melee>
+            <Shooting>1</Shooting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Bosmer_S_Ward</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Bosmer_S_Ward</identifier>
+        <slot>Childhood</slot>
+        <title>Bosmer's ward</title>
+        <titleShort>Ward</titleShort>
+        <description>A Wood Elf trader lost a wager and took [PAWN_nameDef] in as payment for the debt. The arrangement lasted nine years and included a great deal of very strange meat.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Alley_Fighter</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Alley_Fighter</identifier>
+        <slot>Childhood</slot>
+        <title>alley fighter</title>
+        <titleShort>Fighter</titleShort>
+        <description>Dune's back streets settled most disputes with claws. [PAWN_nameDef] had both ears torn by twelve and was held in fine regard by the other children.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Fisher_S_Cub</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Fisher_S_Cub</identifier>
+        <slot>Childhood</slot>
+        <title>fisher's cub</title>
+        <titleShort>Fisher's</titleShort>
+        <description>Khajiit do not swim for pleasure, but somebody has to mend the nets at Senchal. [PAWN_nameDef] did that for years from a very safe distance above the waterline.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>1</Plants>
+            <Cooking>3</Cooking>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Potter_S_Apprentice</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Potter_S_Apprentice</identifier>
+        <slot>Childhood</slot>
+        <title>potter's apprentice</title>
+        <titleShort>Potter</titleShort>
+        <description>Clay from the Xylo banks took [PAWN_nameDef]'s paw prints on every jar. Customers stopped complaining once somebody started calling them a mark of quality.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Hide_And_Seek_Champion</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Hide_And_Seek_Champion</identifier>
+        <slot>Childhood</slot>
+        <title>hide-and-seek champion</title>
+        <titleShort>Hider</titleShort>
+        <description>One game with the village cubs lasted three days because [PAWN_nameDef] would not come out. By then the search had a religious feel to it, and [PAWN_pronoun] was quietly proud.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>1</Melee>
+            <Plants>3</Plants>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Mane_S_Procession_Cub</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Mane_S_Procession_Cub</identifier>
+        <slot>Childhood</slot>
+        <title>Mane's procession cub</title>
+        <titleShort>Procession</titleShort>
+        <description>[PAWN_nameDef] walked in front of the Mane's litter one year, carrying incense. To this day, [PAWN_pronoun] brings it up within a minute of meeting anyone.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Sand_Glass_Cub</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Sand_Glass_Cub</identifier>
+        <slot>Childhood</slot>
+        <title>sand-glass cub</title>
+        <titleShort>Glass</titleShort>
+        <description>An old glassmaker in Dune sold bottles to skooma brewers and pretended not to know why. [PAWN_nameDef] blew those bottles, kept those secrets and burned most of [PAWN_possessive] whiskers.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Thrassian_Raid_Survivor</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Thrassian_Raid_Survivor</identifier>
+        <slot>Childhood</slot>
+        <title>Thrassian raid survivor</title>
+        <titleShort>Survivor</titleShort>
+        <description>Sload slavers came ashore for three nights, and [PAWN_nameDef] spent them under a cistern lid. [PAWN_pronoun] does not much like the sea, or the smell of mud.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Rooftop_Thief</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Rooftop_Thief</identifier>
+        <slot>Childhood</slot>
+        <title>rooftop thief</title>
+        <titleShort>Thief</titleShort>
+        <description>Rajhin is said to have stolen the tattoo off an Emperor's neck. [PAWN_nameDef] started smaller, with laundry, and was doing very well before the fall.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Goat_Herder_S_Cub</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Goat_Herder_S_Cub</identifier>
+        <slot>Childhood</slot>
+        <title>goat herder's cub</title>
+        <titleShort>Herder</titleShort>
+        <description>The goats of the high Anequina scrub are worse than most people. [PAWN_nameDef] learned patience there, along with a number of words that the goats alone appreciated.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>4</Animals>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Runt_Of_The_Litter</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Runt_Of_The_Litter</identifier>
+        <slot>Childhood</slot>
+        <title>runt of the litter</title>
+        <titleShort>Runt</titleShort>
+        <description>Five siblings ate first. S'rendarr looks after runts, [PAWN_possessive] mother liked to say, and [PAWN_nameDef] noticed the god never brought any extra food.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Caravan_Cook_S_Helper</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Caravan_Cook_S_Helper</identifier>
+        <slot>Childhood</slot>
+        <title>caravan cook's helper</title>
+        <titleShort>Helper</titleShort>
+        <description>There is a right way to make saltrice on a moving wagon, and [PAWN_nameDef] learned it by getting it wrong in front of forty hungry traders.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>4</Cooking>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Lamp_Lighter</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Lamp_Lighter</identifier>
+        <slot>Childhood</slot>
+        <title>lamp lighter</title>
+        <titleShort>Lighter</titleShort>
+        <description>At dusk [PAWN_nameDef] lit every lamp on one long street in Corinthe. It was dull work, except that people say unwise things when they think only a cub is listening.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Temple_Cat_Keeper</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Temple_Cat_Keeper</identifier>
+        <slot>Childhood</slot>
+        <title>temple cat keeper</title>
+        <titleShort>Keeper</titleShort>
+        <description>Yes, the shrine kept ordinary cats, and no, nobody found this funny. [PAWN_nameDef] fed them for years, and is firmly of the opinion that they are not related.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>3</Animals>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Dragon_Shadow_Cub</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Dragon_Shadow_Cub</identifier>
+        <slot>Childhood</slot>
+        <title>dragon shadow cub</title>
+        <titleShort>Shadowed</titleShort>
+        <description>A dragon crossed over [PAWN_nameDef]'s village once, flying very low, and did not stop. For the rest of [PAWN_possessive] childhood, the adults kept looking up.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>2</Plants>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Storyteller_S_Shadow</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Storyteller_S_Shadow</identifier>
+        <slot>Childhood</slot>
+        <title>storyteller's shadow</title>
+        <titleShort>Shadow</titleShort>
+        <description>[PAWN_nameDef] followed an old storyteller from fire to fire and learned the tales by heart. Later [PAWN_pronoun] learned to shift the endings around depending on who was paying.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Child_Ash_Road_Refugee</defName>
+        <identifier>ESCP_Backstory_Khajiit_Child_Ash_Road_Refugee</identifier>
+        <slot>Childhood</slot>
+        <title>ash-road refugee</title>
+        <titleShort>Refugee</titleShort>
+        <description>The clan walked out of a burned valley with one wagon and every grandparent still alive. [PAWN_nameDef] was asked to count them every night, and always felt responsible.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>3</Plants>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Military_Dragonguard_Initiate</defName>
+        <identifier>ESCP_Backstory_Khajiit_Military_Dragonguard_Initiate</identifier>
+        <slot>Adulthood</slot>
+        <title>Dragonguard initiate</title>
+        <titleShort>Dragonguard</titleShort>
+        <description>The old order was gone, and Elsweyr had remembered why it wanted one. [PAWN_nameDef] took the oath in Senchal, trained under Sai Sahan's successors and spent years looking at the sky for the wrong reasons.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>7</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Military_Whispering_Claw_Adept</defName>
+        <identifier>ESCP_Backstory_Khajiit_Military_Whispering_Claw_Adept</identifier>
+        <slot>Adulthood</slot>
+        <title>Whispering Claw adept</title>
+        <titleShort>Adept</titleShort>
+        <description>Students of the Whispering Claw learn to strike where a person's balance already wants to go. [PAWN_nameDef] once ended a tavern fight by nudging someone's elbow.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>8</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Military_Goutfang_Brawler</defName>
+        <identifier>ESCP_Backstory_Khajiit_Military_Goutfang_Brawler</identifier>
+        <slot>Adulthood</slot>
+        <title>Goutfang brawler</title>
+        <titleShort>Brawler</titleShort>
+        <description>[PAWN_nameDef] graduated from the Goutfang school with a broken nose and a professional's view of other people's joints. [PAWN_pronoun] charges double for rib work.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>8</Melee>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Military_War_Monk</defName>
+        <identifier>ESCP_Backstory_Khajiit_Military_War_Monk</identifier>
+        <slot>Adulthood</slot>
+        <title>war monk</title>
+        <titleShort>War Monk</titleShort>
+        <description>Monastery walls in Elsweyr are thick for a reason. [PAWN_nameDef] defended one for eleven years and kept to the ritual hours, even when the ritual hours fell in the middle of a siege.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Military_Assassin_Monk</defName>
+        <identifier>ESCP_Backstory_Khajiit_Military_Assassin_Monk</identifier>
+        <slot>Adulthood</slot>
+        <title>assassin monk</title>
+        <titleShort>Assassin</titleShort>
+        <description>[PAWN_nameDef] belonged to an order that insisted it did not exist and could not be hired. Payment went to a shrine with no priest, and nobody was ever late with it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>7</Melee>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Military_Riverhold_Militia</defName>
+        <identifier>ESCP_Backstory_Khajiit_Military_Riverhold_Militia</identifier>
+        <slot>Adulthood</slot>
+        <title>Riverhold militia</title>
+        <titleShort>Militia</titleShort>
+        <description>During the Riverhold riots, [PAWN_nameDef] stood on a wall with a spear and an unclear idea of who the enemy was. [PAWN_pronoun] survived by assuming it was everyone.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Military_Anequinan_Lancer</defName>
+        <identifier>ESCP_Backstory_Khajiit_Military_Anequinan_Lancer</identifier>
+        <slot>Adulthood</slot>
+        <title>Anequinan lancer</title>
+        <titleShort>Lancer</titleShort>
+        <description>A Khajiit on a war senche is a frightening thing to meet. [PAWN_nameDef] rode the plains with a long lance, and considered the animal the smarter half of the arrangement.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Animals>3</Animals>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Military_Desert_Scout</defName>
+        <identifier>ESCP_Backstory_Khajiit_Military_Desert_Scout</identifier>
+        <slot>Adulthood</slot>
+        <title>desert scout</title>
+        <titleShort>Scout</titleShort>
+        <description>A scout on the Anequina flats learns to read old tracks in moving sand. [PAWN_nameDef] guided three armies through and got paid by one of them.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Military_Pelletine_Marine</defName>
+        <identifier>ESCP_Backstory_Khajiit_Military_Pelletine_Marine</identifier>
+        <slot>Adulthood</slot>
+        <title>Pelletine marine</title>
+        <titleShort>Marine</titleShort>
+        <description>Nobody signs on as a marine out of love of water. [PAWN_nameDef] signed on to escape a debt, served on Senchal galleys and was seasick for six straight years.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>4</Shooting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Military_Sword_Singer_S_Rival</defName>
+        <identifier>ESCP_Backstory_Khajiit_Military_Sword_Singer_S_Rival</identifier>
+        <slot>Adulthood</slot>
+        <title>sword-singer's rival</title>
+        <titleShort>Rival</titleShort>
+        <description>[PAWN_nameDef] went to Hammerfell to prove that Khajiiti blades were as good as any Redguard's. The results were mixed, and the stories are not.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>7</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Military_Bandit_Hunter</defName>
+        <identifier>ESCP_Backstory_Khajiit_Military_Bandit_Hunter</identifier>
+        <slot>Adulthood</slot>
+        <title>bandit hunter</title>
+        <titleShort>Hunter</titleShort>
+        <description>The clan mothers paid by the ear for Renrijra Krin. [PAWN_nameDef] brought in so many that they started checking whether the ears were real.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>3</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Military_Renrijra_Deserter</defName>
+        <identifier>ESCP_Backstory_Khajiit_Military_Renrijra_Deserter</identifier>
+        <slot>Adulthood</slot>
+        <title>Renrijra deserter</title>
+        <titleShort>Deserter</titleShort>
+        <description>The Renrijra Krin called themselves freedom fighters when [PAWN_nameDef] joined up. After a season of burning clan farmsteads, [PAWN_pronoun] left in the night and did not go back for [PAWN_possessive] pay.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Military_Renrijra_Cutthroat</defName>
+        <identifier>ESCP_Backstory_Khajiit_Military_Renrijra_Cutthroat</identifier>
+        <slot>Adulthood</slot>
+        <title>Renrijra cutthroat</title>
+        <titleShort>Cutthroat</titleShort>
+        <description>[PAWN_nameDef] never cared whether the Krin was fighting for Elsweyr, as long as the caravans kept coming. [PAWN_pronoun] has left four names behind, in four provinces, in four separate hurries.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Military_Caravan_Guard</defName>
+        <identifier>ESCP_Backstory_Khajiit_Military_Caravan_Guard</identifier>
+        <slot>Adulthood</slot>
+        <title>caravan guard</title>
+        <titleShort>Guard</titleShort>
+        <description>Bandaari caravans travel with more guards than goods. [PAWN_nameDef] walked beside the wagons for fifteen years, and could tell a raider from a beggar at half a mile.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>4</Shooting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Military_Great_War_Veteran</defName>
+        <identifier>ESCP_Backstory_Khajiit_Military_Great_War_Veteran</identifier>
+        <slot>Adulthood</slot>
+        <title>Great War veteran</title>
+        <titleShort>Veteran</titleShort>
+        <description>Elsweyr sent soldiers north when the Dominion asked, and the Dominion did not ask politely. [PAWN_nameDef] fought at the Imperial City, and has mostly refused to talk about it.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Military_Imperial_Auxiliary</defName>
+        <identifier>ESCP_Backstory_Khajiit_Military_Imperial_Auxiliary</identifier>
+        <slot>Adulthood</slot>
+        <title>Imperial auxiliary</title>
+        <titleShort>Auxiliary</titleShort>
+        <description>The Legion is happy to take Khajiiti scouts, as long as they eat at a different table. [PAWN_nameDef] served twenty years, saved a general, and was paid in a sealed letter of thanks.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Military_Thalmor_Gatekeeper</defName>
+        <identifier>ESCP_Backstory_Khajiit_Military_Thalmor_Gatekeeper</identifier>
+        <slot>Adulthood</slot>
+        <title>Thalmor gatekeeper</title>
+        <titleShort>Gatekeeper</titleShort>
+        <description>Under the treaty, Khajiit may guard the Dominion's gates at the Dominion's pleasure. [PAWN_nameDef] stood in a very fine uniform at Rimmen and was never once given a key.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Military_Moon_Blade_Duelist</defName>
+        <identifier>ESCP_Backstory_Khajiit_Military_Moon_Blade_Duelist</identifier>
+        <slot>Adulthood</slot>
+        <title>moon-blade duelist</title>
+        <titleShort>Duelist</titleShort>
+        <description>Khajiiti duels take place by moonlight and are done over before most spectators have found their seats. [PAWN_nameDef] fought nineteen of them. [PAWN_pronoun] says the first eighteen were misunderstandings.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>8</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Military_Siege_Sapper</defName>
+        <identifier>ESCP_Backstory_Khajiit_Military_Siege_Sapper</identifier>
+        <slot>Adulthood</slot>
+        <title>siege sapper</title>
+        <titleShort>Sapper</titleShort>
+        <description>When a wall in the Five Companions War needed to come down, someone had to dig underneath it. [PAWN_nameDef] did that for years, and now prefers to sit near doors.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>6</Mining>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Military_Tenmar_Archer</defName>
+        <identifier>ESCP_Backstory_Khajiit_Military_Tenmar_Archer</identifier>
+        <slot>Adulthood</slot>
+        <title>Tenmar archer</title>
+        <titleShort>Archer</titleShort>
+        <description>Tenmar forest is thick enough that an arrow rarely travels farther than a shout. [PAWN_nameDef] learned to shoot at noises, and is slightly embarrassed by how well that works.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>8</Shooting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Military_Skirmish_Captain</defName>
+        <identifier>ESCP_Backstory_Khajiit_Military_Skirmish_Captain</identifier>
+        <slot>Adulthood</slot>
+        <title>skirmish captain</title>
+        <titleShort>Captain</titleShort>
+        <description>[PAWN_nameDef] led a band of forty along the Colovian border, and brought back thirty-eight of them. In that line of work, those two are always remembered by name.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>3</Shooting>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Military_Werelion_Hunter</defName>
+        <identifier>ESCP_Backstory_Khajiit_Military_Werelion_Hunter</identifier>
+        <slot>Adulthood</slot>
+        <title>werelion hunter</title>
+        <titleShort>Hunter</titleShort>
+        <description>A werelion leaves very specific damage, and [PAWN_nameDef] learned to spot it fast. [PAWN_pronoun] has silver in both boots, and very little patience for people who stay out late.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Military_Dro_M_Athra_Slayer</defName>
+        <identifier>ESCP_Backstory_Khajiit_Military_Dro_M_Athra_Slayer</identifier>
+        <slot>Adulthood</slot>
+        <title>Dro-m'Athra slayer</title>
+        <titleShort>Slayer</titleShort>
+        <description>Khajiit who walk the Dark Behind the World come back wrong, and somebody has to send them on again. [PAWN_nameDef] does this work, and does not sleep well on a moonless night.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>7</Melee>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Military_Harbor_Enforcer</defName>
+        <identifier>ESCP_Backstory_Khajiit_Military_Harbor_Enforcer</identifier>
+        <slot>Adulthood</slot>
+        <title>harbor enforcer</title>
+        <titleShort>Enforcer</titleShort>
+        <description>In Senchal, the difference between a tax and a threat is who sends you. [PAWN_nameDef] collected for all sides, and never met a dockhand who needed a second visit.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>6</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Military_Dune_Gate_Sergeant</defName>
+        <identifier>ESCP_Backstory_Khajiit_Military_Dune_Gate_Sergeant</identifier>
+        <slot>Adulthood</slot>
+        <title>Dune gate sergeant</title>
+        <titleShort>Sergeant</titleShort>
+        <description>[PAWN_nameDef] ran the night watch at Dune, a duty consisting mainly of knowing which smugglers were on the list. [PAWN_pronoun] kept that list in [PAWN_possessive] head and kept [PAWN_possessive] head.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>4</Melee>
+            <Social>4</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Military_Senche_Handler</defName>
+        <identifier>ESCP_Backstory_Khajiit_Military_Senche_Handler</identifier>
+        <slot>Adulthood</slot>
+        <title>senche handler</title>
+        <titleShort>Handler</titleShort>
+        <description>Senche are people, and they will remind you of it. [PAWN_nameDef] served as a go-between for tiger-folk warriors and their officers, and was bitten only by the officers.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Military</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>7</Animals>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Mage_Moon_Priest</defName>
+        <identifier>ESCP_Backstory_Khajiit_Mage_Moon_Priest</identifier>
+        <slot>Adulthood</slot>
+        <title>moon priest</title>
+        <titleShort>Priest</titleShort>
+        <description>[PAWN_nameDef] read the Lunar Lattice for a clan in Pelletine, naming newborns and telling them what form they would take. Mothers argued with [PAWN_objective] about it, and the moons never did.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Medicine>3</Medicine>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Mage_Moon_Bishop_S_Clerk</defName>
+        <identifier>ESCP_Backstory_Khajiit_Mage_Moon_Bishop_S_Clerk</identifier>
+        <slot>Adulthood</slot>
+        <title>moon bishop's clerk</title>
+        <titleShort>Clerk</titleShort>
+        <description>There are few things more political than a calendar. [PAWN_nameDef] kept a moon bishop's records for fifteen years, and could end a family's claim to a field by adjusting one date.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Mage_Mane_S_Attendant</defName>
+        <identifier>ESCP_Backstory_Khajiit_Mage_Mane_S_Attendant</identifier>
+        <slot>Adulthood</slot>
+        <title>Mane's attendant</title>
+        <titleShort>Attendant</titleShort>
+        <description>Only one Mane exists at a time, and nobody touches the braids without years of training. [PAWN_nameDef] had the training, and knows several things that would start a war.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Mage_Spirit_Speaker</defName>
+        <identifier>ESCP_Backstory_Khajiit_Mage_Spirit_Speaker</identifier>
+        <slot>Adulthood</slot>
+        <title>spirit-speaker</title>
+        <titleShort>Speaker</titleShort>
+        <description>The ancestors do not often speak clearly, in [PAWN_nameDef]'s experience. [PAWN_pronoun] charges by the visit, and gives a discount if they do not answer.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Artistic>3</Artistic>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Mage_Temple_Healer</defName>
+        <identifier>ESCP_Backstory_Khajiit_Mage_Temple_Healer</identifier>
+        <slot>Adulthood</slot>
+        <title>temple healer</title>
+        <titleShort>Healer</titleShort>
+        <description>[PAWN_nameDef] served Khenarthi's shrine at Dune through two plague seasons, using spells where they worked and willow bark where they did not. The bark did more.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>7</Medicine>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Mage_Khenarthi_S_Wind_Caller</defName>
+        <identifier>ESCP_Backstory_Khajiit_Mage_Khenarthi_S_Wind_Caller</identifier>
+        <slot>Adulthood</slot>
+        <title>Khenarthi's wind-caller</title>
+        <titleShort>Wind-Caller</titleShort>
+        <description>Sailors at Senchal pay well for a fair wind. [PAWN_nameDef] sold them a prayer and a look at the sky, and was right often enough to stay in business.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Plants>2</Plants>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Mage_College_Dropout</defName>
+        <identifier>ESCP_Backstory_Khajiit_Mage_College_Dropout</identifier>
+        <slot>Adulthood</slot>
+        <title>College dropout</title>
+        <titleShort>Dropout</titleShort>
+        <description>The College of Winterhold takes anyone who can pay and pass, and [PAWN_nameDef] managed one of those. Three years in the snow taught [PAWN_objective] some destruction magic and how much [PAWN_pronoun] hates the cold.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Mage_Desert_Illusionist</defName>
+        <identifier>ESCP_Backstory_Khajiit_Mage_Desert_Illusionist</identifier>
+        <slot>Adulthood</slot>
+        <title>desert illusionist</title>
+        <titleShort>Illusionist</titleShort>
+        <description>A traveling show out of Rimmen paid [PAWN_nameDef] to conjure phantom senche for the crowds. A second, quieter line of business involved phantom coins.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Artistic>4</Artistic>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Mage_Caravan_Enchanter</defName>
+        <identifier>ESCP_Backstory_Khajiit_Mage_Caravan_Enchanter</identifier>
+        <slot>Adulthood</slot>
+        <title>caravan enchanter</title>
+        <titleShort>Enchanter</titleShort>
+        <description>A wagon full of goods sells for more if a few of them glow. [PAWN_nameDef] put honest enchantments on some, and a good story on the rest.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>5</Crafting>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Mage_Sugar_Alchemist</defName>
+        <identifier>ESCP_Backstory_Khajiit_Mage_Sugar_Alchemist</identifier>
+        <slot>Adulthood</slot>
+        <title>sugar alchemist</title>
+        <titleShort>Alchemist</titleShort>
+        <description>Moon sugar has medical uses. [PAWN_nameDef] will tell you this at length, while carefully keeping [PAWN_possessive] notes on the other uses out of sight.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>4</Medicine>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Mage_Dream_Reader</defName>
+        <identifier>ESCP_Backstory_Khajiit_Mage_Dream_Reader</identifier>
+        <slot>Adulthood</slot>
+        <title>dream reader</title>
+        <titleShort>Reader</titleShort>
+        <description>In Corinthe, [PAWN_nameDef] sold interpretations of dreams from a tent with a very good lock. Regular customers tended to have the kind of dreams that benefit from privacy.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Mage_Rajhin_S_Acolyte</defName>
+        <identifier>ESCP_Backstory_Khajiit_Mage_Rajhin_S_Acolyte</identifier>
+        <slot>Adulthood</slot>
+        <title>Rajhin's acolyte</title>
+        <titleShort>Acolyte</titleShort>
+        <description>The god of thieves has few proper priests. [PAWN_nameDef] was one, in a shrine that moved every time anyone found it, and collected offerings without asking first.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Crafting>3</Crafting>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Mage_Clan_Mother_S_Seer</defName>
+        <identifier>ESCP_Backstory_Khajiit_Mage_Clan_Mother_S_Seer</identifier>
+        <slot>Adulthood</slot>
+        <title>Clan Mother's seer</title>
+        <titleShort>Seer</titleShort>
+        <description>[PAWN_nameDef] sat at a clan mother's elbow, reading omens that always somehow favored the clan mother. [PAWN_pronoun] believes every one of them was true anyway.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Mage_Moon_Dancer</defName>
+        <identifier>ESCP_Backstory_Khajiit_Mage_Moon_Dancer</identifier>
+        <slot>Adulthood</slot>
+        <title>moon-dancer</title>
+        <titleShort>Dancer</titleShort>
+        <description>The Two-Moons Dance is said to walk the path between Ahnurr and Fadomai. [PAWN_nameDef] performed it at festivals in full, and once in a dry well to get out of a debt.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>6</Artistic>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Mage_Lunar_Lattice_Scholar</defName>
+        <identifier>ESCP_Backstory_Khajiit_Mage_Lunar_Lattice_Scholar</identifier>
+        <slot>Adulthood</slot>
+        <title>Lunar Lattice scholar</title>
+        <titleShort>Scholar</titleShort>
+        <description>[PAWN_nameDef] spent twenty years in a tower at Torval trying to prove the Lattice could be mapped. [PAWN_pronoun] nearly finished the proof, and then the moons disappeared for two years and ruined the numbers.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>8</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Mage_Exorcist_Of_The_Dark_Behind</defName>
+        <identifier>ESCP_Backstory_Khajiit_Mage_Exorcist_Of_The_Dark_Behind</identifier>
+        <slot>Adulthood</slot>
+        <title>exorcist of the Dark Behind</title>
+        <titleShort>Exorcist</titleShort>
+        <description>Lost spirits gather where a Khajiit has died badly. [PAWN_nameDef] walked the old battlefields to see them home, and has stopped being surprised by what follows [PAWN_objective] back.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Melee>3</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Mage_Psijic_Correspondent</defName>
+        <identifier>ESCP_Backstory_Khajiit_Mage_Psijic_Correspondent</identifier>
+        <slot>Adulthood</slot>
+        <title>Psijic correspondent</title>
+        <titleShort>Correspondent</titleShort>
+        <description>[PAWN_nameDef] once wrote a letter to Artaeum asking about moon magic. Years later a reply came, correcting [PAWN_possessive] grammar and answering a question [PAWN_pronoun] had not yet asked.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Mage_Poison_Tongue_Herbalist</defName>
+        <identifier>ESCP_Backstory_Khajiit_Mage_Poison_Tongue_Herbalist</identifier>
+        <slot>Adulthood</slot>
+        <title>poison-tongue herbalist</title>
+        <titleShort>Herbalist</titleShort>
+        <description>Most of the plants in the Tenmar want to kill you, and the rest are waiting for their chance. [PAWN_nameDef] catalogued them by smell, which cost [PAWN_objective] a few years of [PAWN_possessive] life.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>5</Plants>
+            <Medicine>3</Medicine>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Mage_Shrine_Restorer</defName>
+        <identifier>ESCP_Backstory_Khajiit_Mage_Shrine_Restorer</identifier>
+        <slot>Adulthood</slot>
+        <title>shrine restorer</title>
+        <titleShort>Restorer</titleShort>
+        <description>[PAWN_nameDef] repaired Alkosh's statues along the Ne Quin-al road, working from old sketches and strong opinions. Several of them now look a good deal like [PAWN_possessive] uncle.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>4</Artistic>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Mage_Shadow_Walker</defName>
+        <identifier>ESCP_Backstory_Khajiit_Mage_Shadow_Walker</identifier>
+        <slot>Adulthood</slot>
+        <title>shadow-walker</title>
+        <titleShort>Walker</titleShort>
+        <description>By going to a place in the Scar where the moons never shine, [PAWN_nameDef] learned to step sideways from the light. [PAWN_pronoun] says it was worth it, and still flinches at dusk.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Mage</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Melee>2</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Moon_Sugar_Farmer</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Moon_Sugar_Farmer</identifier>
+        <slot>Adulthood</slot>
+        <title>moon sugar farmer</title>
+        <titleShort>Farmer</titleShort>
+        <description>Rows of cane, a hard overseer and a harvest worth more than the people cutting it: [PAWN_nameDef] did this for most of [PAWN_possessive] life, then one morning simply kept walking.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>7</Plants>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Skooma_Addict</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Skooma_Addict</identifier>
+        <slot>Adulthood</slot>
+        <title>skooma addict</title>
+        <titleShort>Addict</titleShort>
+        <description>[PAWN_nameDef] will tell you exactly when it stopped being a choice. [PAWN_pronoun] can no longer remember very much else about those years, except for how the bottles looked in the sun.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Recovering_Addict</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Recovering_Addict</identifier>
+        <slot>Adulthood</slot>
+        <title>recovering addict</title>
+        <titleShort>Recovering</titleShort>
+        <description>It has been a long time since [PAWN_nameDef] last touched skooma, and [PAWN_pronoun] can tell you the exact number of days. Others who are trying to quit tend to find [PAWN_objective] sooner or later.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Medicine>3</Medicine>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Renowned_Chef</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Renowned_Chef</identifier>
+        <slot>Adulthood</slot>
+        <title>renowned chef</title>
+        <titleShort>Chef</titleShort>
+        <description>A Khajiiti saying holds that the food is the only honest thing a stranger offers. [PAWN_nameDef] once fed a Dominion ambassador so well that he lost the trade dispute and thanked [PAWN_objective].</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>8</Cooking>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Freed_Slave</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Freed_Slave</identifier>
+        <slot>Adulthood</slot>
+        <title>freed slave</title>
+        <titleShort>Freed</titleShort>
+        <description>The Argonians broke the collar in Morrowind, and [PAWN_nameDef] walked home across half a continent. [PAWN_pronoun] found the house, but not the family, and did not stay.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Plants>3</Plants>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Odd_Artist</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Odd_Artist</identifier>
+        <slot>Adulthood</slot>
+        <title>odd artist</title>
+        <titleShort>Artist</titleShort>
+        <description>Nobody can say what the paintings are of. [PAWN_nameDef] says they are of the Lunar Lattice, seen from behind. Some collectors in Daggerfall paid a great deal for them.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>8</Artistic>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Wandering_Trader</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Wandering_Trader</identifier>
+        <slot>Adulthood</slot>
+        <title>wandering trader</title>
+        <titleShort>Trader</titleShort>
+        <description>Everything has a price and every price is a beginning. [PAWN_nameDef] has sold rope to sailors, sand to Redguards and a very old cat to a Thalmor justiciar.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>7</Social>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Cursed_Trader</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Cursed_Trader</identifier>
+        <slot>Adulthood</slot>
+        <title>cursed trader</title>
+        <titleShort>Cursed</titleShort>
+        <description>An old woman in Rimmen said no sale of [PAWN_nameDef]'s would ever turn out well. All sales since have been final, which [PAWN_pronoun] considers a sensible policy regardless.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Bandaari_Pedlar</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Bandaari_Pedlar</identifier>
+        <slot>Adulthood</slot>
+        <title>Bandaari pedlar</title>
+        <titleShort>Pedlar</titleShort>
+        <description>By Bandaari reckoning, anything left behind belongs to whoever picks it up, and [PAWN_nameDef] can make a person's belongings seem left behind with very little effort.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Crafting>3</Crafting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Wandering_Liar</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Wandering_Liar</identifier>
+        <slot>Adulthood</slot>
+        <title>wandering liar</title>
+        <titleShort>Liar</titleShort>
+        <description>This one has met the Emperor, wrestled a dragon, and owns a very fine castle back home. [PAWN_nameDef] will happily tell you all about it, and each visit will be a different castle.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>7</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Rimmen_Moneylender</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Rimmen_Moneylender</identifier>
+        <slot>Adulthood</slot>
+        <title>Rimmen moneylender</title>
+        <titleShort>Lender</titleShort>
+        <description>[PAWN_nameDef] lent gold at rates that were legal on paper, using contracts that were almost readable. People stopped speaking to [PAWN_objective], but they did not stop borrowing.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Saltrice_Baker</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Saltrice_Baker</identifier>
+        <slot>Adulthood</slot>
+        <title>saltrice baker</title>
+        <titleShort>Baker</titleShort>
+        <description>Up before the moons went down and asleep by midday, [PAWN_nameDef] fed one Torval neighborhood for twenty years. [PAWN_pronoun] knows more about those families than their priest does.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Cooking>6</Cooking>
+            <Plants>1</Plants>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Clan_Accountant</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Clan_Accountant</identifier>
+        <slot>Adulthood</slot>
+        <title>clan accountant</title>
+        <titleShort>Accountant</titleShort>
+        <description>Sixteen kingdoms is a lot of bookkeeping. [PAWN_nameDef] balanced the ledgers for one small clan that was somehow always at war with its own cousins.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Bath_Attendant</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Bath_Attendant</identifier>
+        <slot>Adulthood</slot>
+        <title>bath attendant</title>
+        <titleShort>Attendant</titleShort>
+        <description>Khajiit do not bathe in water if they can help it. [PAWN_nameDef] ran a sand bath in Corinthe where the wealthy came to be scrubbed, and to talk freely with their eyes closed.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Medicine>3</Medicine>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Jeweler_Of_Torval</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Jeweler_Of_Torval</identifier>
+        <slot>Adulthood</slot>
+        <title>jeweler of Torval</title>
+        <titleShort>Jeweler</titleShort>
+        <description>Jewelers in Torval say a Khajiit's rings tell you who has been paying them. [PAWN_nameDef] made the rings, and has always been careful about what those rings said.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>7</Crafting>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Tailor_To_The_Clans</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Tailor_To_The_Clans</identifier>
+        <slot>Adulthood</slot>
+        <title>tailor to the clans</title>
+        <titleShort>Tailor</titleShort>
+        <description>A proper tail-slit needs to fit perfectly, or the whole outfit hangs wrong. [PAWN_nameDef] dressed three generations of clan mothers and has opinions about every one of them.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Muleteer</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Muleteer</identifier>
+        <slot>Adulthood</slot>
+        <title>muleteer</title>
+        <titleShort>Muleteer</titleShort>
+        <description>[PAWN_nameDef] drove guar and mules over the Dragontail passes, in all weather, for whoever was paying. [PAWN_pronoun] still talks to animals more than to people, and they listen better.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>6</Animals>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Well_Keeper</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Well_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>well keeper</title>
+        <titleShort>Keeper</titleShort>
+        <description>In a dry year, whoever keeps the well runs the village. [PAWN_nameDef] took the job seriously, and was never once short of invitations to dinner.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Mining>4</Mining>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Smuggler</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Smuggler</identifier>
+        <slot>Adulthood</slot>
+        <title>smuggler</title>
+        <titleShort>Smuggler</titleShort>
+        <description>The cane had to get across the border somehow. [PAWN_nameDef] owned a wagon with a false bottom, a very clean set of papers, and an expression of permanent mild surprise.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Crafting>3</Crafting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Fence</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Fence</identifier>
+        <slot>Adulthood</slot>
+        <title>fence</title>
+        <titleShort>Fence</titleShort>
+        <description>Whatever you have, [PAWN_nameDef] has never seen it before and does not want to know. [PAWN_pronoun] will give you a third of what it is worth and a very warm handshake.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Cat_Burglar</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Cat_Burglar</identifier>
+        <slot>Adulthood</slot>
+        <title>cat burglar</title>
+        <titleShort>Burglar</titleShort>
+        <description>Yes, that is what they call it, and no, [PAWN_nameDef] does not think it is funny. [PAWN_pronoun] has lifted a Count's seal, a bishop's wig and an entire front door.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>3</Melee>
+            <Crafting>4</Crafting>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Gem_Cutter</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Gem_Cutter</identifier>
+        <slot>Adulthood</slot>
+        <title>gem cutter</title>
+        <titleShort>Cutter</titleShort>
+        <description>Gems from the Scar need a steady paw and a suspicious mind. [PAWN_nameDef] has cut sapphires for kings, and glass for people who thought they were kings.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>5</Crafting>
+            <Mining>3</Mining>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Hospice_Keeper</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Hospice_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>hospice keeper</title>
+        <titleShort>Hospice</titleShort>
+        <description>Near the sugar fields, there is always somebody at the end of a long habit. [PAWN_nameDef] kept a few beds for them, and took no payment beyond whatever they left behind.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>6</Medicine>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Road_Musician</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Road_Musician</identifier>
+        <slot>Adulthood</slot>
+        <title>road musician</title>
+        <titleShort>Musician</titleShort>
+        <description>[PAWN_nameDef] played a three-stringed lute from Riverhold to Rimmen and back. The caravans paid in food, the taverns in coin and the Renrijra Krin, on one occasion, by not doing anything.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Artistic>6</Artistic>
+            <Social>2</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Grave_Tender</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Grave_Tender</identifier>
+        <slot>Adulthood</slot>
+        <title>grave-tender</title>
+        <titleShort>Tender</titleShort>
+        <description>Burying someone badly can send them into the Sands Behind the Stars, so [PAWN_nameDef] saw to it that nobody got buried badly. It was a calm job, and very few customers complained.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Plants>4</Plants>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Bazaar_Scribe</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Bazaar_Scribe</identifier>
+        <slot>Adulthood</slot>
+        <title>bazaar scribe</title>
+        <titleShort>Scribe</titleShort>
+        <description>For a coin, [PAWN_nameDef] would write a love letter. For two coins, [PAWN_pronoun] would write the angry response. Business was very good when both parties came to the same stall.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Social>3</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Tiger_Tamer_S_Assistant</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Tiger_Tamer_S_Assistant</identifier>
+        <slot>Adulthood</slot>
+        <title>tiger-tamer's assistant</title>
+        <titleShort>Assistant</titleShort>
+        <description>A traveling show paid [PAWN_nameDef] to put [PAWN_possessive] head inside a tiger's mouth, on the grounds that it was a professional courtesy. The tiger retired before [PAWN_pronoun] did.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>6</Animals>
+            <Melee>1</Melee>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Architect_Of_The_Mane_S_Stair</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Architect_Of_The_Mane_S_Stair</identifier>
+        <slot>Adulthood</slot>
+        <title>architect of the Mane's stair</title>
+        <titleShort>Architect</titleShort>
+        <description>It took [PAWN_nameDef] eleven years to build one staircase at the Mane's summer palace. The Mane only used it twice, but both times [PAWN_pronoun] stood at the bottom and watched.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>7</Construction>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Mud_Brick_Mason</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Mud_Brick_Mason</identifier>
+        <slot>Adulthood</slot>
+        <title>mud-brick mason</title>
+        <titleShort>Mason</titleShort>
+        <description>Dune is made of mud brick, and so is most of what it will be rebuilt from. [PAWN_nameDef] has put up the same wall four times and has never once been paid for the first three.</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Construction>7</Construction>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>ESCP_Backstory_Khajiit_Citizen_Sugar_Tax_Assessor</defName>
+        <identifier>ESCP_Backstory_Khajiit_Citizen_Sugar_Tax_Assessor</identifier>
+        <slot>Adulthood</slot>
+        <title>sugar tax assessor</title>
+        <titleShort>Assessor</titleShort>
+        <description>No one is ever pleased to see the assessor. [PAWN_nameDef] walked the Pelletine fields for ten years with a ledger, a guard and a strict habit of never eating anything offered to [PAWN_objective].</description>
+        <spawnCategories>
+            <li>ESCP_Backstory_Khajiit_Citizen</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+            <Social>4</Social>
+        </skillGains>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+    </BackstoryDef>
+
+</Defs>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ResearchProjectDef>
+        <defName>ESCP_Research_Khajiit_Gear</defName>
+        <label>Khajiiti quadruped craft</label>
+        <description>Learn how the clans fit armor, clothing and bedding to Senche and Alfiq. Only a colony with a Khajiit of any form can start this, and only Khajiit, Ohmes-Raht and Ohmes have the hands to make the results.</description>
+        <baseCost>600</baseCost>
+        <techLevel>Medieval</techLevel>
+        <prerequisites>
+            <li>ComplexClothing</li>
+        </prerequisites>
+        <researchViewX>0.00</researchViewX>
+        <researchViewY>2.00</researchViewY>
+        <tab>ESCP_Faction_Research</tab>
+        <modExtensions>
+            <li Class="ESCP.Core.XenotypeExtension">
+                <whitelistedXenotypes>
+                    <li>ESCP_Xenotype_Khajiit</li>
+                    <li>ESCP_Xenotype_OhmesRaht</li>
+                    <li>ESCP_Xenotype_Ohmes</li>
+                    <li>ESCP_Xenotype_Senche</li>
+                    <li>ESCP_Xenotype_Alfiq</li>
+                </whitelistedXenotypes>
+            </li>
+        </modExtensions>
+    </ResearchProjectDef>
+
+</Defs>
