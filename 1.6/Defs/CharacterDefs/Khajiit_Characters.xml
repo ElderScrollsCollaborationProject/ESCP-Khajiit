@@ -14,6 +14,7 @@
         <definitions>
             <li Class="ESCP.Core.CharacterStoryDefinition">
                 <firstName>Akkhuz-ri</firstName>
+                <lastName></lastName>
                 <nickname>the Mane</nickname>
                 <gender>Male</gender>
                 <age>58</age>
@@ -48,6 +49,7 @@
         <definitions>
             <li Class="ESCP.Core.CharacterStoryDefinition">
                 <firstName>Dro-Zhan</firstName>
+                <lastName></lastName>
                 <nickname>Scar</nickname>
                 <gender>Male</gender>
                 <age>44</age>
@@ -74,6 +76,7 @@
         <definitions>
             <li Class="ESCP.Core.CharacterStoryDefinition">
                 <firstName>Shavara</firstName>
+                <lastName></lastName>
                 <nickname>Clan Mother</nickname>
                 <gender>Female</gender>
                 <age>61</age>
@@ -83,6 +86,61 @@
                 <hairDef>Decent</hairDef>
                 <headTypeDef>ESCP_HeadKhajiit_Female_Average_Normal</headTypeDef>
                 <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef>
+        <defName>ESCP_Character_Risaad</defName>
+        <pawnKind>ESCP_Pawnkind_Khajiit_Merchant</pawnKind>
+        <faction>ESCP_Faction_Bandaari</faction>
+        <eras>
+            <li>4</li>
+        </eras>
+        <xenotype>ESCP_Xenotype_Khajiit</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>Ri'saad</firstName>
+                <lastName></lastName>
+                <nickname>the Caravan Master</nickname>
+                <gender>Male</gender>
+                <age>50</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(160, 120, 80)</hairColor>
+                <hairDef>Decent</hairDef>
+                <headTypeDef>ESCP_HeadKhajiit_Male_Average_Normal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+            <li Class="ESCP.Core.CharacterTraitsDefinition">
+                <traits>
+                    <li>
+                        <key>Greedy</key>
+                        <value>0</value>
+                    </li>
+                </traits>
+            </li>
+        </definitions>
+    </ESCP.Core.CharacterDef>
+
+    <ESCP.Core.CharacterDef>
+        <defName>ESCP_Character_Maiq</defName>
+        <pawnKind>ESCP_Pawnkind_Khajiit_Citizen</pawnKind>
+        <faction>ESCP_Faction_Bandaari</faction>
+        <xenotype>ESCP_Xenotype_Khajiit</xenotype>
+        <definitions>
+            <li Class="ESCP.Core.CharacterStoryDefinition">
+                <firstName>M'aiq</firstName>
+                <lastName></lastName>
+                <nickname>the Liar</nickname>
+                <gender>Male</gender>
+                <age>40</age>
+            </li>
+            <li Class="ESCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(170, 130, 85)</hairColor>
+                <hairDef>Decent</hairDef>
+                <headTypeDef>ESCP_HeadKhajiit_Male_Average_Normal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
             </li>
         </definitions>
     </ESCP.Core.CharacterDef>
