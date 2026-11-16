@@ -158,6 +158,32 @@
                     <li>RandomDrop</li>
                 </arrivalModes>
             </li>
+            <li Class="ESCP.Enlist.FactionEnlistOptions">
+                <enlistOptionsDefs>
+                    <li>ESCP_Enlistment_Bandaari</li>
+                </enlistOptionsDefs>
+            </li>
+            <li Class="ESCP.Ranks.FactionExtension_RankTracks">
+                <rankTracks>
+                    <li>ESCP_RankTrack_Bandaari</li>
+                </rankTracks>
+            </li>
+            <li Class="ESCP.Factions.FactionExtension_NamedSettlement">
+                <settlementNames>
+                    <li>Bandaari Rest</li>
+                    <li>Pedlar's Crossing</li>
+                    <li>Last Wagon</li>
+                    <li>Moon-Bargain</li>
+                    <li>Cane Road Camp</li>
+                </settlementNames>
+                <preferredHilliness />
+                <allowedBiomes>
+                    <li>AridShrubland</li>
+                    <li>TemperateForest</li>
+                    <li>Desert</li>
+                </allowedBiomes>
+                <clustered>false</clustered>
+            </li>
         </modExtensions>
     </FactionDef>
 

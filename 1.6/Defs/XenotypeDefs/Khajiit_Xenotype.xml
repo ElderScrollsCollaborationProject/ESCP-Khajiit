@@ -23,6 +23,11 @@
             <li>Hair_Gray</li>
             <li>Hair_SnowWhite</li>
         </genes>
+        <modExtensions>
+            <li Class="ESCP_RaceTools.RaceProperties">
+                <leatherDef>ESCP_LeatherKhajiit</leatherDef>
+            </li>
+        </modExtensions>
     </XenotypeDef>
 
     <XenotypeDef>
@@ -46,6 +51,11 @@
             <li>Hair_Gray</li>
             <li>Hair_SnowWhite</li>
         </genes>
+        <modExtensions>
+            <li Class="ESCP_RaceTools.RaceProperties">
+                <leatherDef>ESCP_LeatherKhajiit</leatherDef>
+            </li>
+        </modExtensions>
     </XenotypeDef>
 
     <XenotypeDef>
@@ -61,6 +71,11 @@
             <li>ESCP_Gene_Khajiit_Hair</li>
             <li>ESCP_Gene_MerEars</li>
         </genes>
+        <modExtensions>
+            <li Class="ESCP_RaceTools.RaceProperties">
+                <leatherDef>ESCP_LeatherKhajiit</leatherDef>
+            </li>
+        </modExtensions>
     </XenotypeDef>
 
     <XenotypeDef>
@@ -87,6 +102,9 @@
         <modExtensions>
             <li Class="ESCP.Core.XenotypeExtension_Race">
                 <pawnKind>ESCP_Pawnkind_Khajiit_Senche</pawnKind>
+            </li>
+            <li Class="ESCP_RaceTools.RaceProperties">
+                <leatherDef>ESCP_LeatherKhajiit</leatherDef>
             </li>
         </modExtensions>
     </XenotypeDef>
@@ -115,6 +133,9 @@
         <modExtensions>
             <li Class="ESCP.Core.XenotypeExtension_Race">
                 <pawnKind>ESCP_Pawnkind_Khajiit_Alfiq</pawnKind>
+            </li>
+            <li Class="ESCP_RaceTools.RaceProperties">
+                <leatherDef>ESCP_LeatherKhajiit</leatherDef>
             </li>
         </modExtensions>
     </XenotypeDef>

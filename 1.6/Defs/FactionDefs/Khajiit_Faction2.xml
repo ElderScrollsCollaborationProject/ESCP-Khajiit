@@ -167,6 +167,23 @@
                     <li>RandomDrop</li>
                 </arrivalModes>
             </li>
+            <li Class="ESCP.Factions.FactionExtension_NamedSettlement">
+                <settlementNames>
+                    <li>Scar's End</li>
+                    <li>Black Heights</li>
+                    <li>Tideholm</li>
+                    <li>Desolation's End</li>
+                    <li>Valley of Scars</li>
+                    <li>Tenmar Hollow</li>
+                </settlementNames>
+                <preferredHilliness />
+                <allowedBiomes>
+                    <li>AridShrubland</li>
+                    <li>Desert</li>
+                    <li>TropicalRainforest</li>
+                </allowedBiomes>
+                <clustered>true</clustered>
+            </li>
         </modExtensions>
     </FactionDef>
 

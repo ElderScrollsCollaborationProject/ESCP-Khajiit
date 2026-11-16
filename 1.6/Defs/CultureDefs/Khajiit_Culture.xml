@@ -44,6 +44,61 @@
         <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_DeityTypeMaker_Khajiit</deityTypeMaker>
         <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerFestival_Khajiit</festivalNameMaker>
         <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_LeaderTitleMaker_Khajiit</leaderTitleMaker>
+        <modExtensions>
+            <li Class="ESCP_RaceTools.IdeoCultureProperties">
+                <overrideDivines>true</overrideDivines>
+                <divinesList>
+                    <li>
+                        <name>Alkosh</name>
+                        <type>the Dragon King of Cats</type>
+                        <gender>Male</gender>
+                        <iconPath>UI/Deities/ESCP_DeityAkatosh</iconPath>
+                    </li>
+                    <li>
+                        <name>Arkay</name>
+                        <type>the God of Burials and Seasons</type>
+                        <gender>Male</gender>
+                        <iconPath>UI/Deities/ESCP_DeityArkay</iconPath>
+                    </li>
+                    <li>
+                        <name>Dibella</name>
+                        <type>the Goddess of Beauty</type>
+                        <gender>Female</gender>
+                        <iconPath>UI/Deities/ESCP_DeityDibella</iconPath>
+                    </li>
+                    <li>
+                        <name>Julianos</name>
+                        <type>the God of Wisdom and Logic</type>
+                        <gender>Male</gender>
+                        <iconPath>UI/Deities/ESCP_DeityJulianos</iconPath>
+                    </li>
+                    <li>
+                        <name>Khenarthi</name>
+                        <type>the Goddess of the Winds</type>
+                        <gender>Female</gender>
+                        <iconPath>UI/Deities/ESCP_DeityKynareth</iconPath>
+                    </li>
+                    <li>
+                        <name>Mara</name>
+                        <type>the Mother Goddess</type>
+                        <gender>Female</gender>
+                        <iconPath>UI/Deities/ESCP_DeityMara</iconPath>
+                    </li>
+                    <li>
+                        <name>S&apos;rendarr</name>
+                        <type>the Runt God of Mercy</type>
+                        <gender>Male</gender>
+                        <iconPath>UI/Deities/ESCP_DeityStendarr</iconPath>
+                    </li>
+                    <li>
+                        <name>Zenithar</name>
+                        <type>the God of Work and Commerce</type>
+                        <gender>Male</gender>
+                        <iconPath>UI/Deities/ESCP_DeityZenithar</iconPath>
+                    </li>
+                </divinesList>
+            </li>
+        </modExtensions>
     </CultureDef>
 
     <StyleCategoryDef MayRequire="Ludeon.RimWorld.Ideology">
