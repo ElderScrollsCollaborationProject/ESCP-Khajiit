@@ -272,7 +272,7 @@
     <ThingDef ParentName="ESCP_Khajiit_LeatherBase">
         <defName>ESCP_SencheLeatherArmor</defName>
         <label>Senche leather armor</label>
-        <description>Leather armor tailored for Senche, perfect balance between defence and weight.</description>
+        <description>Leather armor tailored for Senche, balanced between protection and weight.</description>
         <graphicData>
             <texPath>Things/Apparel/ESCP_SencheLeatherArmor</texPath>
             <graphicClass>Graphic_Single</graphicClass>
